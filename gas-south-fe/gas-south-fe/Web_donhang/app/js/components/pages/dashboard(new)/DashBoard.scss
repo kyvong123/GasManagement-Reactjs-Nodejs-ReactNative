@@ -1,0 +1,101 @@
+.dashboard {
+    padding: 20px;
+    background-color: #fff;
+
+    .content {
+        height: auto;
+        background: #f7f6f6;
+        border-radius: 20px;
+        border: 1px solid black;
+        overflow: hidden;
+
+        // ba
+        .filter-group {
+            width: 100%;
+        }
+
+        .image {
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            margin-left: -20px;
+            margin-top: -5px;
+        }
+
+        .btn {
+            margin-right: 0px;
+            padding: 10px 45px;
+        }
+
+        .btn span {
+            padding-left: 20px;
+        }
+
+        .header-content {
+            background-color: transparent;
+            border: none;
+            gap: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .jNifjd {
+                width: 100%;
+                padding: 8px 12px;
+            }
+
+            .tram_container {
+                width: 100%;
+
+                .tram_content {
+                    display: flex;
+                    justify-content: flex-start;
+                    column-gap: 20px;
+                    width: 100%;
+                    margin-top: 10px;
+
+                    .item {
+                        width: 40%;
+                        text-align: start;
+
+                        select {
+                            height: 40px;
+                            padding: 5px;
+                        }
+
+                        label {
+                            font-weight: 500;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .data-excel {
+            font-size: 14px;
+
+            .table {
+                text-align: center;
+
+                tr,
+                th,
+                td {
+                    border-collapse: collapse;
+                }
+            }
+        }
+    }
+}
+
+#test-table-xls-button {
+    display: none;
+    // color: transparent;
+    // background-color: transparent;
+    // border: none;
+    // position: absolute;
+    // width: 190px;
+    // height: 43px;
+    // margin-left: -187px;
+}

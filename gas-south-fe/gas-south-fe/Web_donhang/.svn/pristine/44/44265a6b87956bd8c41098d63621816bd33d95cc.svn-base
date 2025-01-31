@@ -1,0 +1,124 @@
+@import "~antd/dist/antd.css";
+#userType {
+    .delete_icon{
+        color:white;
+    }
+
+    .delete_btn{
+        margin-left:5px;
+    }
+
+    .card .card-body {
+        height: 50%;
+        background-color: #fff;
+    }
+
+    .anticon-star{
+        color: #ead545;
+    }
+
+    .icon_star{
+        margin-right:5px;
+    }
+
+    .ant-pagination-item-link{
+        padding:0px;
+    }
+
+    thead[class*="ant-table-thead"] th{
+        background-color: #009347 !important;
+        color: #fff !important;
+        border-right-color: #fff !important;
+
+    }
+
+    thead[class*="ant-table-thead"] td{
+        color: black !important;
+    }
+
+     thead[class*="ant-table-thead"] th.ant-table-align-center {
+         font-weight: lighter;
+     }
+
+
+    .edit-user-link:hover{
+        // background: none !important;
+        color: #0e583f !important;
+    }
+
+    .edit-user-link{
+        color: black !important;
+    }
+
+    .back_btn:hover{
+        background: none;
+    }
+
+    .user-type-form{
+        margin:0 auto;
+    }
+
+    .ant-input{
+        color:black;
+        font-weight: 400;
+    }
+
+    .delete_link{
+        background: none !important;
+    }
+
+    .delete_link .delete_icon{
+        color:red;
+        font-size: larger;
+    }
+
+    // .ant-row.ant-form-item.ant-col.ant-col-11.right_form_item{
+    //     margin-left: auto;
+    // }
+
+    .lnd_input{
+        width:45%;
+        float:left;
+        margin-bottom: 1rem !important;
+    }
+
+    .stt_input{
+        width:50%;
+        float:right;
+        margin-bottom: 1rem !important;
+    }
+
+    .ghichu_input{
+        clear:both;
+        margin-bottom: 1rem !important;
+    }
+
+    .issystem_checkbox{
+        text-align: center;
+    }
+
+    .ant-form-explain{
+        border: none;
+        border-radius: 3px;
+        color: #721c24 !important;
+        background-color: #f8d7da;
+        padding: 0.55rem 1.25rem;
+    }
+
+    footer.card-footer {
+        background-color: #fff !important;
+        border-top: 1px solid #eee;
+    }
+
+    .ant-message {
+        bottom: 20px;
+        top: initial;
+    }
+    // .ant-table-row-level-0 {
+    //     background:none !important;
+    // }
+
+    // .anticon svg {
+    //     color: inherit !important;
+    // }
+}

@@ -1,0 +1,42 @@
+#coordinator-create{
+    .card-body{
+        background-color: #FFF;
+    }
+    .coordinate-create__info{
+        label{
+            width: 110px;
+            margin: 0;
+        }
+    }
+}
+#coordinator{
+    .ant-pagination-item-link{
+        padding: 7px 16px;
+    }
+    .ant-table-expanded-row-level-1{
+        .ant-table-content{
+            margin: 30px 0;
+        }
+    }
+    .ant-pagination-item a{
+        padding: 0px 16px;
+    }
+}
+#detail-coodinator-modal{
+    .ant-tag{
+        margin: 0px 0px 0px 0px;
+    }
+    label{
+        width: 100px;
+    }
+    input{
+        font-weight: bold;
+        background-color: #FFF;
+        width: 200px;
+    }
+}
+#search-order-modals{
+    .ant-pagination-item a{
+        padding: 2px 16px;
+    }
+}

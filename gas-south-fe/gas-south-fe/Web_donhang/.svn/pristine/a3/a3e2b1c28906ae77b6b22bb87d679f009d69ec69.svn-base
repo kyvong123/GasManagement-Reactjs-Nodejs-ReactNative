@@ -1,0 +1,5 @@
+@import "~antd/dist/antd.css";
+.input-group {
+   
+    width: 50% !important;
+}

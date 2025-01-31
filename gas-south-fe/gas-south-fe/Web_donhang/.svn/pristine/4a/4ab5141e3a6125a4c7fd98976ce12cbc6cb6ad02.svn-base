@@ -1,0 +1,14 @@
+@import "~antd/dist/antd.css";
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+  .test {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+}

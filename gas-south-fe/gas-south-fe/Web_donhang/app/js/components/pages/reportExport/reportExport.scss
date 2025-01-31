@@ -1,0 +1,81 @@
+#reportExport {
+  .ant-table-scroll-position-left {
+    margin-left: -1px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .main-title {
+    margin-left: 75px;
+    display: inline-flex;
+    padding-top: 10px;
+  }
+  .content {
+    padding-top: 9px;
+  }
+  .select {
+    padding-top: 3px;
+  }
+  .buttonStyle {
+    padding-top: 2px;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .export {
+    display: inline-flex;
+  }
+  .buttonStyleIn {
+    height: 52px;
+    margin-left: 10px;
+    background-color: #096ab2;
+    color: white;
+    width: 100px;
+  }
+  thead[class*="ant-table-thead"] th {
+    background-color: #009347 !important;
+    color: #fff !important;
+    text-align: center;
+    border: 1px solid #ececec;
+    border-collapse: collapse;
+  }
+  thead[class*="ant-table-thead"] th.ant-table-align-center {
+    font-weight: lighter;
+    text-align: center;
+  }
+  thead[class*="ant-table-thead"] td {
+    color: black !important;
+  }
+  tbody[class*="ant-table-tbody"] td {
+    color: black !important;
+    text-align: center;
+    border: 1px solid #ececec;
+    border-collapse: collapse;
+  }
+  .card-content-report {
+    display: flex;
+    align-items: center;
+    //justify-content: center;
+    height: 80px;
+  }
+  .card-content-report > .card-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+  .card-content-report > i {
+    margin: 0 1rem;
+  }
+  @media only screen and (max-width: 999px) {
+    .card-content-report {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .number {
+    font-size: 20px;
+    color: black;
+  }
+  .row-col-card {
+    padding: 0px 20px;
+    background: none;
+  }
+}

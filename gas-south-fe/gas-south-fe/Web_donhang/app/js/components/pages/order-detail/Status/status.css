@@ -1,0 +1,132 @@
+.history-order__container{
+
+}
+.delivered {
+    color:#28a745;
+}
+.delivering {
+    color:#fd7e14;
+}
+.gray_dark{
+    color:#343a40;
+}
+.yellow{
+    color:#ffc107;
+}
+.red{
+    color:red;
+}
+.black{
+    color:rgb(35, 35, 35);
+}
+.blue{
+    color:#096Ab2;
+}
+.history-order{
+    display:flex;
+    width:350px;
+    margin-left:30px;
+}
+.history-order__container{
+    display:flex;
+    
+}
+.status-order{
+
+}
+.status-text{
+    font-size:20px;
+    font-weight: 900;
+}
+.margin-left20{
+}
+.margin-top10{
+    margin-top:10px;
+}
+.margin-left60p{
+    margin-left:55%;
+}
+.margin-bottom20px{
+    margin-bottom:20px;
+}
+.detail-shipping__container{
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 12px 20px;
+    width: 95%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 0px 0 20px 20px;
+    position: relative;
+}
+.detail-shipping{
+    display:flex;
+}
+.detail-shipping__infor{
+    display:flex;
+}
+.status-text{
+    font-weight:600;
+}
+.detail-reason-cancel{
+    
+}
+.Circle-icon{
+    margin-right:10px;
+}
+ul.reason-cancel-items{
+    list-style-type:none;
+    display:flex;
+    justify-content:space-between;
+    padding:0;
+
+}
+ul.reason-cancel-items span{
+    font-size:24px;
+    font-weight: 400;
+}
+/* ul.reason-cancel-items:first-child li span{
+    color:red;
+    font-weight:900;
+} */
+
+.reason-cancel-item{
+    display:flex;
+}
+.reason-cancel-item img{
+    width:30px;
+    height:30px;
+} 
+ul .reason-cancel-item{
+    list-style-type:none;
+    padding-left:20px;
+}
+ul .reason-cancel-item li{
+    font-size:24px;
+
+}
+.date-time-reason{
+    margin-right:40px;
+}
+.date-time-reason span{
+    margin-left:15px;
+    font-size:24px;
+    font-weight:400;
+}
+.date-order-shipping{
+    display:flex;
+}
+ .date-shipping{
+    margin-right:7px;
+}
+.date-detail-shipping{
+    display:flex;
+    flex-direction: column;
+}
+.font-20{
+    font-size:20px;
+}
+.font-size18{
+    font-size: 21px;
+    font-weight: 600;
+}

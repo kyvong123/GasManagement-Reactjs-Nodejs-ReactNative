@@ -1,0 +1,150 @@
+#ImportOrderManagement {
+    h4 {
+        width: 250px;
+    }
+
+    th {
+        background-color: #009347 !important;
+        color: #FFF;
+        text-align: center;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    .statuss {
+        a {
+            padding: 0;
+            margin: 0px 10px;
+            font-size: 1.1rem;
+        }
+    }
+    @media (max-width: 1100px) {
+        .ant-table-scroll .ant-table-body{ 
+          overflow: hidden !important; 
+          margin-bottom: 0px !important; 
+        }
+      }
+}
+
+#CreateImportOrderManage {
+    h4 {
+        width: 300px;
+    }
+
+    .create-export-order-left {
+        p {
+            width: 230px;
+        }
+    }
+
+    .create-export-order-right {
+        p {
+            width: 230px;
+        }
+    }
+
+    .card-footer {
+        button {
+            font-size: 1.1rem;
+            padding: 5px 25px;
+        }
+    }
+
+    .statuss {
+        a {
+            padding: 0;
+            margin: 0px 10px;
+            font-size: 1.1rem;
+        }
+    }
+    @media (max-width: 1200px) {
+        .ant-table {
+          width: unset;
+        }
+      }
+}
+
+#search-import-order {
+    h4 {
+        width: 250px;
+    }
+
+    th {
+        background-color: #009347 !important;
+        color: #FFF;
+        text-align: center;
+    }
+
+    td {
+        text-align: center;
+    }
+}
+
+#info-import-order{
+    @media (max-width: 1200px) {
+        .ant-table {
+          width: unset;
+        }
+      }
+}
+
+#detail-import-order {
+    th {
+        background-color: #009347 !important;
+        color: #FFF;
+        text-align: center;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    .statuss {
+        a {
+            padding: 0;
+            margin: 0px 10px;
+            font-size: 1.1rem;
+        }
+    }
+    .react-datepicker-wrapper{
+        display: block;
+    }
+    .react-datepicker__input-container{
+        display: flex;
+        input {
+            border: 1px #d9d9d9 solid;
+            border-radius: 4px;
+            width: 369px;
+            padding: 4px 11px;
+        }
+    }
+
+    .edit-import-manager {
+        background-color: #009347 !important;
+        color: #FFF;
+    }
+
+    .form-border {
+        border: 1px #e7e7e7 solid;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px 0;
+
+    }
+
+    .mr-2 {
+        font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+
+    @media (max-width: 1200px) {
+        .ant-table {
+          width: unset;
+        }
+      }
+}
+
+.ant-notification.ant-notification-topRight{
+    z-index: 20000;
+}

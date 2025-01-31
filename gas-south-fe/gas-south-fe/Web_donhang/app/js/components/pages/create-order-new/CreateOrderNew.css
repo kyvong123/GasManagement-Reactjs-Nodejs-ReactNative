@@ -1,0 +1,412 @@
+.create_order {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.order_container {
+    margin: 1rem;
+    border: 1px solid #000000;
+    padding: 1.5rem;
+    border-radius: 2.5rem;
+    background-color: #f7f6f6;
+    position: relative;
+}
+.create-order-icon {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.create-order-icon .link {
+    padding: 0;
+    color: black;
+}
+.create-order-icon .link:hover {
+    background: none;
+}
+.order_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order_title h2 {
+    color: #009347;
+}
+.order_info {
+    margin-top: 1rem;
+    width: 60%;
+}
+.order_info_address,
+.order_info_date {
+    display: flex;
+    width: 100%;
+}
+.order_info_address label {
+    color: black;
+}
+.order_info_date {
+    margin-bottom: 40px;
+    height: 34px;
+}
+.order_info div label:first-child {
+    font-weight: 400;
+    font-size: 1.1rem;
+    width: 60%;
+}
+.order_info div label:last-child {
+    font-weight: 400;
+    font-size: 1.1rem;
+    width: 40%;
+    margin-left: 45px;
+}
+.order_info_date select {
+    width: 60%;
+    height: 100%;
+    outline: none;
+    border: 1px solid #000000;
+    color: black;
+    border-radius: 5px;
+    font-weight: 400;
+    padding-left: 3px;
+}
+.order_info_date div {
+    display: flex;
+    align-items: center;
+}
+.error.errordate {
+    border: none !important;
+}
+.errordate > div > .ant-calendar-picker-input {
+    border: 1px solid red;
+} 
+
+.order_info_date div input {
+    outline: none;
+    border: none;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    width: 150px;
+    color: black;
+    font-weight: 400;
+
+}
+.order_info_date div span {
+    margin-left: 20px;
+    outline: 1px solid #000000;
+    border: none;
+    height: 34px;
+    padding: 0.2rem;
+    border-radius: 5px;
+    position: relative;
+    width: 150px;
+}
+.order_info_address_add {
+    width: 1.8rem;
+    height: 1.8rem;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.order_info_address_minus {
+    right: -8rem;
+}
+.order_info div:first-child {
+    margin-right: 3rem;
+}
+
+.order_info_detail {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    position: relative;
+}
+.order_info_detail_title,
+.order_info_detail_value {
+    display: flex;
+}
+.order_info_detail_title select,
+.order_info_detail_value select,
+.order_info_detail_title input {
+    width: 13rem;
+    height: 3rem;
+    margin-left: 1rem;
+    font-weight: 500;
+    padding-left: 1rem;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.order_info_detail_title select:first-child,
+.order_info_detail_value select:first-child {
+    margin-left: -1px;
+}
+.order_info_detail_value {
+    margin-top: 0;
+}
+.order_info_detail_title_soluong {
+    height: 3rem;
+    width: 100px;
+    border: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    outline: none;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.order_info_detail_plus_add,
+.order_info_detail_plus_remove {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-top: 5px;
+}
+.order_info_detail_plus_remove {
+    margin-top: 2rem;
+}
+.order_info_detail_plus {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+}
+.order_info_vobinh {
+    margin-top: 1rem;
+    display: flex;
+}
+.order_info_vobinh div {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+.order_info_vobinh label {
+    font-size: 1.2rem;
+    color: #009347;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.order_info_vobinh div input {
+    color: #009347;
+    width: 1.3rem;
+    height: 1.3rem;
+    cursor: pointer;
+}
+.order_ghichu textarea {
+    margin-top: 3px;
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    width: 100%;
+    height: 250px;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.btn-container button {
+    outline: none;
+    border: 1px solid #000000;
+    font-size: 18px;
+    padding: 0.8rem 2.2rem;
+    font-weight: 500;
+    background-color: #009347;
+    display: inline-block;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: all 0.2s linear;
+}
+.btn-container button:hover {
+    opacity: 0.9;
+}
+.tram_title,
+.tram_content,
+.tram_order {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+.error_form {
+    border: solid 1px red !important; 
+}
+
+.tram_title div {
+    width: 30%;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: black;
+}
+.tram_content div,
+.tram_order > .tram_order_detail {
+    width: 30%;
+}
+.tram_order > #select-name-customer {
+    width: 30%;
+}
+.tram_order_detail select {
+    width: 100%;
+    height: 34px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: black;
+}
+
+.tram_content div select {
+    padding: 5px 0px;
+    width: 100%;
+    height: 34px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: black;
+}
+.tram_order > .tram_order_detail div {
+    display: flex;
+}
+.tram_order input {
+    display: flex;
+    border: 1px solid #000000;
+    color: black;
+    font-weight: 400;
+}
+#select-name-customer input {
+    border: none;
+    color: black;
+    font-weight: 400;
+}
+.tram_content_tong_dai_ly > div {
+    width: 100%;
+}
+.tram_content_tong_dai_ly > div > select {
+    width: 85%;
+}
+.tram_container {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 820px) {
+    .order_info_detail_title select,
+    .order_info_detail_value select,
+    .order_info_detail_title_soluong {
+        width: 7rem;
+        padding-left: 2px;
+    }
+    .order_info_address_minus {
+        right: -7rem;
+    }
+}
+.select-form {
+    margin-right: 20px;
+}
+.msg-error {
+    margin-top: 10px;
+    color: red;
+    display: none;
+}
+.actives {
+    display: block;
+}
+.icon-action {
+    margin-left: 20px;
+    position: relative;
+    font-size: 24px;
+    color: black;
+    top: 14px;
+    box-shadow: 0px 4px 5px #888888;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icon-xoa {
+    color: #888888;
+}
+.form-valid {
+    position: relative;
+    display: block !important;
+}
+.address-delivery {
+    margin-right: 72px;
+    width: 300px !important;
+}
+.order_info_address_add {
+    /* margin-left: 0 !important; */
+    position: relative;
+    /* top: -4px; */
+}
+.btn_action2 {
+    position: relative;
+    bottom: 20px;
+}
+
+.errordate {
+    margin-left: 17px !important;
+    
+    /* width: 160px !important; */
+    outline: none !important;
+}
+.input-price {
+    width: 100px;
+    background-color: #e8e8e8;
+    margin-left: 14px;
+    border-radius: 6px;
+    padding: 10px;
+}
+.abc {
+    position: absolute;
+    bottom: -22px;
+    margin: 0;
+    left: 20px;
+}
+
+.ngay_tao_don {
+    justify-content: end;
+}
+
+.ngay_tao_don .tram_order_detail {
+    display: flex;
+}
+
+.ngay_tao_don .checkbox_tao_don {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 37px;
+}
+
+.small label {
+    font-size: 0.8rem;
+}
+
+.small div input {
+    width: 1rem;
+    height: 1rem;
+}

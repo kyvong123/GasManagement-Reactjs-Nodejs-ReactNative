@@ -1,0 +1,287 @@
+#historyImport{
+    .ant-table-row-level-0{
+        td{
+            font-size: large;
+            font-weight: bold;
+        }
+    }
+}
+.card-title-product{
+    padding: 0.5rem;
+   
+    .card-product-title-product{
+        display: flex;
+        h4 {
+            display: block;
+            height: 1rem;
+        }
+    }
+    .card-product-left-product__report__body{
+        width: 100%;
+        margin-top: 1rem;
+        .container{
+            display: flex;
+            justify-content:  space-between;
+            font-size: 1rem;
+
+            .section-statistical1__report__title{
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+                display: grid;
+                gap: 10px;
+                grid-template-columns: repeat(4, 1fr);
+                // grid-template-rows: repeat(2, 2rem);
+                .btn-history {
+                    // padding: 4px 15px;
+                    height: 36px;
+                    min-width: 90px;
+                    background-color: #7a7a7a;
+                    border: 1px solid #7a7a7a;
+                    color: #fff;
+                    border-radius: 2px;
+                    cursor: pointer;
+                    &.active {
+                      background-color: #037aff;
+                      border: 1px solid #037aff;
+                    }
+                  }
+            }
+        }
+    }
+    .card-product-right{
+        width: 38%;
+        .RangePicker--customN{
+            flex-grow: 1;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+             padding: 0.1rem;
+        }
+    }
+    
+
+    @media only screen and (max-width: 1024px) {
+        .card-product-right{
+            display: none;
+        }       
+    }
+    
+    
+}
+
+.section{
+    
+    &__body{
+        thead[class*="ant-table-thead"] th {
+            background-color: #009347 !important;
+            color: #fff !important;
+            border-right-color: #fff !important;
+        } 
+    }
+    
+}
+.section__body{
+    // gap: 0.5rem;
+    width: 100%;
+    .fixerB{
+        //  display: flex;
+        padding: 0.2rem;
+        max-width: 65rem;
+        
+        .B{
+        padding: 0.2rem;
+            
+        // display: block;
+        }
+    }
+    
+    .sectionOwer{
+        display: flex;
+        padding: 0.1rem;  
+        justify-content: space-between;
+        .L{
+            display: block;
+            width: 45%;
+        }
+         
+        .R{
+            display: block;
+            width: 45%;
+        }
+    }        
+}
+@media only screen and (max-width: 1203px) {
+    .section__body{
+        .fixerB{
+            //  display: flex;
+            padding: 0.2rem;
+            max-width: 15rem;
+            .B{
+                width: auto;
+                display: block;
+            }
+        }    
+        .sectionOwer{
+            // max-width: 50rem;
+            max-width: 40rem;
+            padding: 0.4rem;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(1, 1fr);
+            .L{
+                display: block;
+                width: 50%;
+            }
+            .R{
+                display: block;
+                width: 50%;
+            }   
+        }
+    }   
+}
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    .section__body{
+        .fixerB{
+            display: flex;
+            padding: 0.2rem;
+            justify-content: space-between;
+            margin-left: 1rem;
+            .B{
+                width: auto;
+                display: block;
+                max-width: 15rem;
+                table, thead, tbody, th, td, tr { 
+                    display: block; 
+                }
+                
+                /* Hide table headers (but not display: none;, for accessibility) */
+                thead tr { 
+                    position: absolute;
+                    top: -9999px;
+                    left: -9999px;
+                }
+                
+                tr { border: 1px solid #ccc; }
+                
+                td { 
+                    /* Behave  like a "row" */
+                    border: none;
+                    border-bottom: 1px solid #eee; 
+                    position: relative;
+                    padding-left: 50%; 
+                }
+                
+                td:before { 
+                    /* Now like a table header */
+                    position: absolute;
+                    /* Top/left values mimic padding */
+                    top: 6px;
+                    left: 6px;
+                    width: 45%; 
+                    padding-right: 10px; 
+                    white-space: nowrap;
+                }
+                
+                /*
+                Label the data
+                */
+                td:nth-of-type(1):before { content: "Ngày giờ"; }
+                td:nth-of-type(2):before { content: "Loại"; }
+                td:nth-of-type(3):before { content: "Nơi nhận"; }
+                td:nth-of-type(4):before { content: "Tài xế"; }
+                td:nth-of-type(5):before { content: "Biển Số"; }
+                td:nth-of-type(6):before { content: "Số lượng"; }
+              
+            
+            }
+        }
+        .sectionOwer{
+            .L{
+                max-width: 15rem;
+                table, thead, tbody, th, td, tr { 
+                    display: block; 
+                }
+                
+                /* Hide table headers (but not display: none;, for accessibility) */
+                thead tr { 
+                    position: absolute;
+                    top: -9999px;
+                    left: -9999px;
+                }
+                
+                tr { border: 1px solid #ccc; }
+                
+                td { 
+                    /* Behave  like a "row" */
+                    border: none;
+                    border-bottom: 1px solid #eee; 
+                    position: relative;
+                    padding-left: 50%; 
+                }
+                
+                td:before { 
+                    /* Now like a table header */
+                    position: absolute;
+                    /* Top/left values mimic padding */
+                    top: 6px;
+                    left: 6px;
+                    width: 45%; 
+                    padding-right: 10px; 
+                    white-space: nowrap;
+                }
+                
+                /*
+                Label the data
+                */
+                td:nth-of-type(1):before { content: "Nhập hàng từ"; }
+                td:nth-of-type(2):before { content: "Ngày giờ"; }
+                td:nth-of-type(3):before { content: "Số lượng"; }
+              
+            }
+            .R{
+                max-width: 15rem;
+                table, thead, tbody, th, td, tr { 
+                    display: block; 
+                }
+                
+                /* Hide table headers (but not display: none;, for accessibility) */
+                thead tr { 
+                    position: absolute;
+                    top: -9999px;
+                    left: -9999px;
+                }
+                
+                tr { border: 1px solid #ccc; }
+                
+                td { 
+                    /* Behave  like a "row" */
+                    border: none;
+                    border-bottom: 1px solid #eee; 
+                    position: relative;
+                    padding-left: 50%; 
+                }
+                
+                td:before { 
+                    /* Now like a table header */
+                    position: absolute;
+                    /* Top/left values mimic padding */
+                    top: 6px;
+                    left: 6px;
+                    width: 45%; 
+                    padding-right: 10px; 
+                    white-space: nowrap;
+                }
+                
+                /*
+                Label the data
+                */
+                td:nth-of-type(1):before { content: "Xuất hàng từ"; }
+                td:nth-of-type(2):before { content: "Ngày giờ"; }
+                td:nth-of-type(3):before { content: "Số lượng"; }
+              
+            }
+            
+        }
+    }       
+}

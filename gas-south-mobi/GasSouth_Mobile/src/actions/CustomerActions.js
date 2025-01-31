@@ -1,0 +1,43 @@
+import { createActions } from 'redux-actions'
+import {
+    GET_LIST_BY_CUSTOMER_TYPE,
+    GET_LIST_BY_CUSTOMER_TYPE_SUCCESS,
+    GET_LIST_BY_CUSTOMER_TYPE_FAIL,
+    GET_LIST_BRANCH,
+    GET_LIST_BRANCH_SUCCESS,
+    GET_LIST_BRANCH_FAIL,
+    GET_LIST_TRUCK,
+    GET_LIST_TRUCK_SUCCESS,
+    GET_LIST_TRUCK_FAIL,
+    GET_LIST_CUSTOMER_TYPE,
+    GET_LIST_CUSTOMER_TYPE_SUCCESS,
+    GET_LIST_CUSTOMER_TYPE_FAIL,
+} from '../types';
+
+export const {
+    getListByCustomerType,
+    getListByCustomerTypeSuccess,
+    getListByCustomerTypeFail,
+    getListBranch,
+    getListBranchSuccess,
+    getListBranchFail,
+    getListTruck,
+    getListTruckSuccess,
+    getListTruckFail,
+    getListCustomerType,
+    getListCustomerTypeSuccess,
+    getListCustomerTypeFail,
+} = createActions({
+    [GET_LIST_BY_CUSTOMER_TYPE]: (reqListCustomer) => ({ reqListCustomer }),
+    [GET_LIST_BY_CUSTOMER_TYPE_SUCCESS]: (resulListCustomer) => ({ resulListCustomer }),
+    [GET_LIST_BY_CUSTOMER_TYPE_FAIL]: (errorListCustomer) => ({ errorListCustomer }),
+    [GET_LIST_BRANCH]: (reqListBranch) => ({ reqListBranch }),
+    [GET_LIST_BRANCH_SUCCESS]: (resulListBranch) => ({ resulListBranch }),
+    [GET_LIST_BRANCH_FAIL]: (errorListBranch) => ({ errorListBranch }),
+    [GET_LIST_TRUCK]: (id) => (id),
+    [GET_LIST_TRUCK_SUCCESS]: (resulListTruck) => ({ resulListTruck }),
+    [GET_LIST_TRUCK_FAIL]: (errorListTruck) => ({ errorListTruck }),
+    [GET_LIST_CUSTOMER_TYPE]: (reqCustomer) => ({ reqCustomer }),
+    [GET_LIST_CUSTOMER_TYPE_SUCCESS]: (resultCustomer) => ({ resultCustomer }),
+    [GET_LIST_CUSTOMER_TYPE_FAIL]: (errorCustomer) => ({ errorCustomer }),
+});

@@ -1,0 +1,97 @@
+
+
+
+.btn {
+    padding: 10px 60px;
+    margin-right: 50px;
+    border-radius: 6px;
+}
+.btn-actionrow {
+    margin-left: 360px;
+    padding: 20px;
+}
+.btn-action-delete {
+    margin-left: 120px;
+    padding: 20px;
+    .btn-delete,
+    .btn-huy {
+        cursor: pointer;
+        color: #fff;
+        border-radius: 4px;
+        padding: 10px 32px;
+        margin-right: 20px;
+        border: none;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    .btn-huy {
+        background-color: #15c377;
+    }
+    .btn-delete{
+        background-color: #faad14;
+    }
+    
+}
+.input-prices {
+    width: 100px;
+    height: 34px;
+    margin-right: 12px;
+    border-radius: 6px;
+    padding: 0 20px;
+}
+.mess {
+    display: none;
+}
+.err {
+    display: block;
+    color: red;
+    margin-top: 10px;
+}
+.error {
+    border: solid 1px red;
+}
+.wrapper_detail {
+    display: flex;
+    margin-bottom: 20px;
+    .detail {
+        width: 180px;
+        margin-right: 20px;
+        color: blue;
+    }
+}
+.wrapper_delete {
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #6c6c6ca6;
+}
+.wrapper-modaldelete {
+    position: absolute;
+    top: -18px;
+    left: 34%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    z-index: 10;
+    width: 460px;
+    height: 160px;
+    box-shadow: 0 0 12px 3px #888888;
+    background-color: #fff;
+    color: black;
+    animation: example both 1s;
+    .heading-delete {
+        font-size: 23px;
+        padding: 2;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 600;
+    }
+}
+@keyframes example {
+    from {top: -200px;}
+    to {top: 10px; }
+}

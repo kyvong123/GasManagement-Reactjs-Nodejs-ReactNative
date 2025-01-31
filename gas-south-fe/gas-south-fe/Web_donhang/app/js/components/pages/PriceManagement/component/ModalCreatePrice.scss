@@ -1,0 +1,212 @@
+.modal-create {
+
+    .overlay {
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-create-content {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        z-index: 1001;
+        background-color: #fff;
+        padding: 20px;
+        font-size: 16px;
+        border: 2px solid #666;
+        width: 65%;
+        min-height: 50%;
+        overflow: auto;
+
+        .error {
+            border-bottom-color: red;
+        }
+
+        button {
+            outline: none;
+            border: none;
+        }
+
+        .add-btn,
+        .delete-btn {
+            text-align: center;
+            font-weight: 700;
+            padding: 3px 0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .add-btn {
+            background-color: orange;
+
+        }
+
+        .delete-btn {
+            background-color: orangered;
+        }
+
+        .select-form-group {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+
+
+
+            .select-form-item {
+
+                margin: 0 -2px;
+                label {
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+
+                select {
+                    width: 100%;
+                    padding: 5px;
+                }
+
+                input {
+                    width: 100%;
+                }
+
+                .Select-placeholder, .Select--single > .Select-control .Select-value{
+                    color: #666;
+                }
+                .Select-control{
+                    border: 1px solid #666;
+                    width: 192px !important;
+                }
+
+                .Select-option.is-focused {
+                    background-color: #1890ff;
+                    color: #fff;
+                    font-size: 1rem;
+                }
+
+                .Select-option{
+                    padding: 2px 8px ;
+                }
+
+                .clear_select{
+                    position: absolute;
+                    top: -7px;
+                    right: 179px;
+                    z-index: 987;
+                    padding: 11px 8px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .group-item-create {
+            margin-top: 20px;
+            max-height: 300px;
+            overflow: auto;
+            padding: 10px 0;
+
+            .group-item,
+            .content-group {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                text-align: left;
+                font-size: 14px;
+                font-weight: 500;
+                border-bottom: 1px solid #ddd;
+                padding: 10px 0;
+                margin-bottom: 10px;
+            }
+        }
+
+        .button-group {
+            gap: 20px;
+
+            .btn-item {
+                border: 1px solid #ddd;
+                font-weight: 600;
+                border-radius: 10px;
+                padding: 5px;
+                text-align: center;
+                cursor: pointer;
+            }
+
+            .next-btn,
+            .save-btn {
+                background-color: #3366FF;
+            }
+        }
+
+
+        .main-content-container {
+            .form-content {
+                display: grid;
+                grid-template-columns: 1fr 1.5fr 2fr;
+                column-gap: 10px;
+
+                .price-sell{
+                    position: relative;
+                                      
+                    &-show{
+                        opacity: 1;
+                        position: absolute;
+                        top:0;
+                        left:0;
+                        border: 1px solid #ebebeb;
+                        border-radius: 2px;
+                        color: black;
+                        padding: 5px 12px;
+                        font-size: 14px;
+                        line-height: inherit;
+                        -webkit-transition: 0.2s linear;
+                        transition: 0.2s linear;
+                        width: 100%;
+                        height: 33px;
+                    }
+
+                    input {
+                        position: absolute;
+                        top:0;
+                        left: 0;
+                        opacity: 0;
+                        z-index: 10;
+                    }
+
+                    input:focus{
+                        opacity: 1;
+                    }     
+                    
+                    input:focus ~ &-show{
+                        opacity: 0;
+                    }
+
+                }
+                .price-sell ~ .price-sell {
+                    margin-top: 35px;
+                }
+            }
+
+            select {
+                text-transform: none;
+                padding: 5px;
+                width: 100%;
+                outline: none;
+                border-radius: 5px;
+            }
+
+            .form-item.date-picker-group {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                width: 80%;
+                gap: 3px;
+            }
+        }
+    }
+}

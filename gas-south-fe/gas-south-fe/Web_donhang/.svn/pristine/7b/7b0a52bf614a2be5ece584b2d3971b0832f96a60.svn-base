@@ -1,0 +1,144 @@
+<div class="modal-content">
+ 
+  <div class="modal-body">
+      <div data-provide="wizard">
+          <div class="tab-content">
+            </div><div class="row form-type-line">
+                <div class="col-sm-6 ">
+                    <div class="form-group">
+                        <label>Mã tuyển dụng</label>
+                        <input class="form-control" readonly type="text" value="ABC1234">
+                      </div>  
+                </div>
+                <div class="col-sm-6">
+                   
+                  <div class="flexbox">
+                      <div class="form-group">
+                          <label>QR Code</label>
+                      </div>
+                      <img src="/assets/img/qrcode.png">
+                    </div>
+                  </div>
+                <div class="col-sm-6 ">
+                    <div class="form-group">
+                        <label>Tiêu đề tin tuyển dụng</label>
+                        <input class="form-control" type="text" value="Tuyển nhân viên phục vụ ca sáng" readonly>
+                      </div>  
+                </div>
+                <div class="col-sm-6 ">
+                    <div class="form-group">  
+                        <label>Cửa hàng</label>    
+                        <input class="form-control" type="text" value="The Cofee House - Hồng Hà" readonly> 
+                      </div>  
+                </div>
+                <div class="col-sm-6 ">
+                        <div class="form-group">
+                                <label>Mức lương</label>
+                                <input class="form-control" type="text" value="20.000/Giờ" readonly>                       
+                              </div>  
+                </div>
+                <div class="col-sm-6 ">
+                    <div class="form-group">
+                        <label>Vị trí</label>
+                        <input class="form-control" type="text" value="Phục vụ bán thời gian" readonly>   
+                      </div>
+                </div>                  
+                <div class="col-sm-12"> 
+                  <div class="row gap-6">
+                      <div class="col-sm-6">
+                          <div class="form-group">
+                              <label for="textarea">Mô tả công việc</label>
+                              <textarea class="form-control" id="textarea" rows="7" readonly style="resize: none">Việc nhẹ, lương cao</textarea>
+                            </div>
+                            <div class="flexbox">
+                                    <label for="textarea">Thời gian làm việc</label>
+                                    <div class="custom-control custom-radio flex-grow">
+                                            <input type="radio" id="cr-2" name="rg-1" class="custom-control-input" checked>
+                                            <label class="custom-control-label" for="cr-2">Cố định</label>
+                                          </div>
+                                  </div>
+                                  <div class="flexbox">
+                                        <label>T2,T4,T6</label>
+                                        <label class=" flex-grow">8:00-12:00</label>                                       
+                                      </div>
+                                    <div class="flexbox">
+                                        <label>CN</label>
+                                        <label class=" flex-grow">18:00-22:00</label>                                       
+                                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                          <div class="form-group">
+                              <label for="textarea">Kỹ năng yêu cầu</label>
+                              <input class="tagsinput" type="text" value="Thu ngân,Phục vụ" data-provide="tagsinput" readonly>
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="textarea">Tính cách yêu cầu</label>
+                                <input class="tagsinput" type="text" value="Chăm chỉ,Giao tiếp cởi mở" data-provide="tagsinput">
+                              </div>
+                            
+                            <div class="flexbox">                          
+                                <div class="form-group flex-grow">
+                                    <label>Hạn nộp đơn</label>
+                                    <input class="form-control" type="text" value="10/06/2018 (3 ngày)" readonly>   
+                                    </div>
+                                <div class="form-group">  
+                                    <label>Số lượng tuyển</label>                            
+                                    <input class="form-control" type="text" value="2" readonly>  
+                                    </div>  
+                            </div>
+                      
+                  </div>
+                      </div>
+                  </div>                
+                  <div class="col-sm-6">
+                        <div class="flexbox flex-justified">
+                        <div class="form-group">
+                          <label>Video</label>
+                          <input class="form-control" type="text" value="https://www.youtube.com/user/JunoShoesVn/videos" readonly>
+                        </div>
+                      </div>
+                      <div class="flexbox flex-justified">
+                      <!-- <div class="form-group">
+                          <a href="#">Xem trước Video</a>
+                      </div> -->
+                      <!-- <input type="file" data-provide="dropify"> -->
+                      <div class="embed-responsive embed-responsive-16by9">
+                          <iframe src="https://www.youtube.com/embed/M5S_JBRjd1s" frameborder="0" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                      </div>  
+                <div class="col-sm-6">
+                    <div class="flexbox flex-justified">
+                    <div class="form-group">
+                        <label>Quyền lợi khác</label>
+                        <input class="form-control" type="text" value="Ăn 3 bữa, không lo đói" readonly>
+                    </div>
+                    </div>
+                    <div class="">             
+                        <img src="assets/img/banner_small.png">
+                    </div>
+                </div> 
+                <div class="col-sm-12">
+                        <div class="form-group">
+                          <label>Hình ảnh</label>
+                          <div class="flexbox">
+                          <img src="assets/img/juno.png">
+                          <img src="assets/img/juno.png">
+                          <img src="assets/img/juno.png">
+                          <img src="assets/img/juno.png">
+                          <img src="assets/img/juno.png">
+                          <!-- <div data-provide="dropzone" data-url="path/to/file-uploader.php" data-param-name="images" data-max-filesize="5"></div> -->
+                        </div>
+                        </div>
+                      </div>                    
+                </div>
+  </div>
+          <div class="modal-footer">     
+              <button type="button" class="btn btn-secondary text-center" data-dismiss="modal" id="btnClose">Đóng lại</button>
+          </div>
+      </div>
+  </div>
+  <script>
+    $('input.tagsinput').prop('disabled', true);
+  </script>

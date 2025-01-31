@@ -1,0 +1,83 @@
+#Controll{
+    .ant-table-row-collapsed:after {
+      font-size: 15px;
+      position: revert; 
+      background: none;
+    }
+    .ant-table-row-expand-icon::before{
+      position: revert; 
+      background: none;
+      font-weight: bold;
+      font-size: 15px;
+    }
+    .ant-table-row-expanded:after {
+      position: revert; 
+      background: none;
+      font-weight: bold;
+    }
+    .btn-mod{
+        background-color: rgb(9, 106, 178) !important;
+        color: white !important;
+        width: 80px;
+      }
+      .h1, h2, h3, h4, h5, h6 {
+        margin-bottom: auto;
+      }
+      .Form{
+        margin: 0px;
+        padding: 0%;
+      }
+      .ant-table .ant-table-row-indent + .ant-table-row-expand-icon {
+      
+        width: 17px;
+        height: 17px;
+        
+    }
+
+    .ant-table-row-level-0{
+      background-color: #009347;
+    
+    }
+
+    .ant-table-row-level-1{
+      background-color:rgb(246, 146, 30);
+    }
+
+    .ant-table-row-level-2{
+      background-color:#dcdcdc4d;
+    }
+    
+    .ant-table-row.ant-table-row-level-3{
+      color:black;
+    }
+
+    .ant-table-tbody > tr > td > h3 {
+      color: white;
+    }
+
+    tr:hover:not(.ant-table-expanded-row) > td {
+      background: none !important;
+    }
+
+    .ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row) > td {
+      background-color: #c1c1c1 !important;
+    }
+ 
+    .ant-table-thead > tr > th {
+    
+      background: #edf1f5 !important;
+    }
+
+    .Form {
+      padding: 5px;
+    }
+
+    .ant-table-tbody > tr > td > input {
+      transform: scale(1.2);
+      border-radius: 1px;
+    }
+
+    // .ant-table-row-level-3 > td > p{
+    //     font-weight: 500;
+    // }
+}

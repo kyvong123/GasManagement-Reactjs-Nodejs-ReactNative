@@ -1,0 +1,106 @@
+.infor-order__container {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 12px 20px;
+  width: 95%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 40px 0 0 20px;
+  position: relative;
+}
+.company-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.date-text {
+  font-size: 22px;
+  font-weight: 400;
+}
+.margin-bottom12 {
+  margin-bottom: 12px;
+}
+.margin-right100 {
+  margin-right: 100px;
+}
+.arrow-icon {
+  position: absolute;
+  bottom: 0;
+  right: 28px;
+  font-size: 25px;
+}
+.code-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.margin-right200 {
+  margin-left: 50%;
+}
+.color-grey {
+  color: rgb(102 96 96);
+}
+.margin-right250 {
+  margin-right: 250px;
+}
+.margin-right350 {
+  margin-right: 350px;
+}
+.padding-left100 {
+  margin-right: 77px;
+}
+.margin-right450 {
+}
+.fa_icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.modal_edit_order {
+  overflow-y: auto;
+  height: 570px;
+}
+.quantity_err {
+  color: red;
+  display: block !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+.quantity_success {
+  display: none;
+}
+.quantityInput_err {
+  background-color: red;
+  display: block !important;
+}
+.quantityInput_success {
+  background-color: white;
+}
+.cus_style_modal {
+  z-index: 10000;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+@media only screen and (max-width: 1400px) {
+  .margin-right250 {
+    margin-right: 140px;
+  }
+}

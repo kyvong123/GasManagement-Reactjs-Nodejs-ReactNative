@@ -1,0 +1,128 @@
+.sidebar li a {
+    color: white !important;
+}
+
+li .fa {
+    color: white;
+}
+
+// li i:active {
+//     color: #009347;
+// }
+// li span:active {
+//     color: #009347;
+// }
+.menu-item:active {
+    background-color: #edf1f5;
+}
+
+.active i {
+    color: #009347 !important;
+}
+
+.sidebar .sidebar-navigation {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar .menu:not(.menu-bordery)>.menu-item.active>.menu-link {
+    // background: #fff;
+    // border-left: 5px solid #ec5353;
+    color: #009347 !important;
+    text-decoration: none;
+}
+
+.sidebar .menu:not(.menu-bordery)>.menu-item.active>.menu-link {
+    background: #fff;
+    border-left: 5px solid #f6921e;
+    // color: #009347!important;
+}
+
+.sidebar .menu:not(.menu-bordery)>.menu-item.active>.menu-link {
+    background: #edf1f5;
+    border-left: 5px solid #f6921e;
+    border-right: 5px solid #f6921e;
+}
+
+.fa-suitcase {
+    // background-color: white;
+    color: white;
+}
+
+.kinhdoanh {
+    font-size: 14px;
+    font-family: "roboto";
+    text-transform: capitalize;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.sub-menu {
+    list-style-type: none;
+    // background-color: #edf1f5;
+    text-decoration: none;
+}
+
+.collapsed a {
+    padding: 0;
+    width: 200%;
+    text-decoration: none;
+}
+
+#products {
+    background-color: #f0f2f3;
+}
+
+.sub-menu .menu-link .fa {
+    color: black;
+}
+
+.sub-menu .menu-link .title {
+    color: black;
+}
+
+.active1 i {
+    color: #009347 !important;
+    text-decoration: none;
+}
+
+.active1 .title {
+    color: #009347 !important;
+    text-decoration: none;
+}
+
+.active1 .menu-link {
+    background-color: #d4dfe4;
+    text-decoration: none;
+}
+
+.menu-item {
+    border-bottom: 0.01px solid rgba(255, 255, 255, 0.466);
+}
+
+.sub-menu .menu-item {
+    border-bottom: 0.01px solid rgba(27, 26, 26, 0.185);
+    border-right: 0.01px solid rgba(27, 26, 26, 0.185);
+}
+
+.fs-16 {
+    color: #009347;
+}
+
+@media only screen and (max-width: 1366px) {
+	.logo-icon {
+		display: block !important;
+		//width: 3rem;
+		padding-right: 0;
+	}
+	.logo-icon > img {
+		width: 100%;
+		// object-fit: cover;
+	}
+	.iconMenu {
+		width: 30px !important;
+	}
+	// resize google map
+	.map {
+		left: 0 !important;
+	}
+}

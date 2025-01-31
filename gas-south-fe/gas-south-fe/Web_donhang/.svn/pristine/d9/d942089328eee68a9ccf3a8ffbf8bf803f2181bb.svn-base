@@ -1,0 +1,6 @@
+Header add Access-Control-Allow-Origin "https://api.4te.vn"
+Header add Access-Control-Allow-Origin "http://api-4te.crmdvs.vn"
+Header add Access-Control-Allow-Origin "http://14.161.1.28:1337"
+Header add Access-Control-Allow-Origin "http://localhost:1337"
+Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS, PATCH"

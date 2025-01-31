@@ -1,0 +1,100 @@
+diff --git a/node_modules/react-native-material-textfield/src/components/affix/index.js b/node_modules/react-native-material-textfield/src/components/affix/index.js
+index 0f85022..8d7cd74 100644
+--- a/node_modules/react-native-material-textfield/src/components/affix/index.js
++++ b/node_modules/react-native-material-textfield/src/components/affix/index.js
+@@ -1,6 +1,6 @@
+ import PropTypes from 'prop-types';
+ import React, { PureComponent } from 'react';
+-import { Animated } from 'react-native';
++import { Animated, Text } from 'react-native';
+ 
+ import styles from './styles';
+ 
+@@ -11,7 +11,7 @@ export default class Affix extends PureComponent {
+ 
+   static propTypes = {
+     numberOfLines: PropTypes.number,
+-    style: Animated.Text.propTypes.style,
++    style: Text.propTypes.style,
+ 
+     color: PropTypes.string.isRequired,
+     fontSize: PropTypes.number.isRequired,
+diff --git a/node_modules/react-native-material-textfield/src/components/helper/index.js b/node_modules/react-native-material-textfield/src/components/helper/index.js
+index 6060f9f..2d67c15 100644
+--- a/node_modules/react-native-material-textfield/src/components/helper/index.js
++++ b/node_modules/react-native-material-textfield/src/components/helper/index.js
+@@ -1,6 +1,6 @@
+ import PropTypes from 'prop-types';
+ import React, { PureComponent } from 'react';
+-import { Animated } from 'react-native';
++import { Animated, Text } from 'react-native';
+ 
+ import styles from './styles';
+ 
+@@ -11,7 +11,7 @@ export default class Helper extends PureComponent {
+ 
+     disabled: PropTypes.bool,
+ 
+-    style: Animated.Text.propTypes.style,
++    style: Text.propTypes.style,
+ 
+     baseColor: PropTypes.string,
+     errorColor: PropTypes.string,
+@@ -72,8 +72,8 @@ export default class Helper extends PureComponent {
+       errorColor,
+     } = this.props;
+ 
+-    let text = errored?
+-      error:
++    let text = errored ?
++      error :
+       title;
+ 
+     if (null == text) {
+@@ -83,8 +83,8 @@ export default class Helper extends PureComponent {
+     let textStyle = {
+       opacity,
+ 
+-      color: !disabled && errored?
+-        errorColor:
++      color: !disabled && errored ?
++        errorColor :
+         baseColor,
+     };
+ 
+diff --git a/node_modules/react-native-material-textfield/src/components/label/index.js b/node_modules/react-native-material-textfield/src/components/label/index.js
+index 82eaf03..6cc16a3 100644
+--- a/node_modules/react-native-material-textfield/src/components/label/index.js
++++ b/node_modules/react-native-material-textfield/src/components/label/index.js
+@@ -1,6 +1,6 @@
+ import PropTypes from 'prop-types';
+ import React, { PureComponent } from 'react';
+-import { Animated } from 'react-native';
++import { Animated, Text } from 'react-native';
+ 
+ import styles from './styles';
+ 
+@@ -43,7 +43,7 @@ export default class Label extends PureComponent {
+       y1: PropTypes.number,
+     }),
+ 
+-    style: Animated.Text.propTypes.style,
++    style: Text.propTypes.style,
+     label: PropTypes.string,
+   };
+ 
+@@ -69,10 +69,10 @@ export default class Label extends PureComponent {
+       return null;
+     }
+ 
+-    let color = disabled?
+-      baseColor:
+-      restricted?
+-        errorColor:
++    let color = disabled ?
++      baseColor :
++      restricted ?
++        errorColor :
+         focusAnimation.interpolate({
+           inputRange: [-1, 0, 1],
+           outputRange: [errorColor, baseColor, tintColor],

@@ -1,0 +1,9 @@
+com/gassouth/MainApplication.java
+ com.gassouth.MainApplication
+ com.gassouth.MainApplication$1
+com/gassouth/MainActivity.java
+ com.gassouth.MainActivity
+com/gassouth/BuildConfig.java
+ com.gassouth.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

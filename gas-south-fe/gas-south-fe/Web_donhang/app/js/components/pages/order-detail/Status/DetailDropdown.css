@@ -1,0 +1,36 @@
+.detail-dropdown__container{
+    margin-left: 30px;
+    margin-top: 12px;
+    display:flex;
+}
+h4{
+  font-size:18px;
+}
+.margin-left26p{
+    margin-left:20%;
+}
+.hidden{
+  display:none;
+  
+      
+  }
+.small-font{
+  font-weight:300;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px)  {
+    .detail-dropdown__container {
+      flex-direction: column;
+      margin:0 auto;
+    }
+    .detail-order-response{
+       margin-left:0px;
+       margin-top:10px;
+    }
+  }
+  @media screen and (max-width: 1400px) and (min-width: 1024px)  {
+
+    .detail-order-response{
+       margin-left:100px;
+    }
+  }

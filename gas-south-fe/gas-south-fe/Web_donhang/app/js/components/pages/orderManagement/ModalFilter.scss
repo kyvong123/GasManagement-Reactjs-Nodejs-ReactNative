@@ -1,0 +1,85 @@
+.form-check-input {
+    width: 20px;
+    height: 20px;
+}
+
+.form-check-label {
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+.container_Modalfilter {
+    border: solid 1px #ccc;
+    border-radius: 10px;
+}
+
+.container_cus {
+    padding: 58px 62px 45px 58px;
+}
+
+.modal_time_title {
+    font-size: 23px;
+    color: red;
+    margin-bottom: 7px;
+}
+
+.date_cus {
+    display: flex;
+    column-gap: 8px;
+
+    .date_time_picker {
+        border-radius: 2px;
+        border: 1px solid black;
+
+        div {
+            height: 100%;
+
+            input {
+                height: 100%;
+                outline: none;
+                border-radius: 8px;
+            }
+
+            input:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.margin_customer {
+    margin-top: 150px;
+}
+
+.btn_customer {
+    padding: 13px 50px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+ .btn_customer--warning {
+    background-color: #fd7e14;
+}
+ .btn_customer:focus{
+    outline: none;
+}
+.btn_customer--success{
+    background-color: #28a745;
+}
+
+.drop-down-cus{
+    color: black;
+}
+.date_cus .date_time_picker div input {
+    border: none;
+}
+.form-control {
+    color:  black;
+    font-weight: 500;
+}
+.select {
+    height: 42px !important;
+}

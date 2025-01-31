@@ -1,0 +1,236 @@
+#statistical {
+  td:first-child {
+    text-align: left;
+  }
+  td:last-child {
+    text-align: right;
+    font-weight: bold;
+  }
+  .ant-table-tbody {
+    text-align: center;
+    .ant-table-row-level-0 {
+      font-weight: bold;
+    }
+  }
+}
+
+.section-statistical {
+  background-color: #fff;
+  &__report {
+    h1 {
+      font-size: 20px;
+      padding: 10px 50px;
+    }
+    &__title {
+      padding: 10px 15px;
+      h2 {
+        font-size: 15px !important;
+        width: 110px;
+      }
+      .time-picker {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        align-items: center;
+      }
+      .time-picker-button-group {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+      }
+      .time-picker-option-group {
+        display: flex;
+        justify-content: start;
+        flex-grow: 1;
+        margin-bottom: 10px;
+      }
+      .option-group {
+        display: flex;
+        align-items: center;
+        max-width: 33%;
+        h2 {
+          width: auto;
+        }
+        margin-right: 10px;
+      }
+
+      @media screen and (max-width: 1024px) {
+        .time-picker-button-group {
+          flex-direction: column;
+          margin-top: 0px;
+        }
+        .time-picker-button-group > div {
+          margin: 5px 0;
+          display: flex;
+          justify-content: space-between;
+          button {
+            margin: 0px 0px 0px 10px;
+          }
+        }
+
+        .RangePicker--custom {
+          width: 100%;
+        }
+
+        .time-picker-option-group {
+          display: flex;
+          justify-content: start;
+          flex-grow: 1;
+          margin-bottom: 0;
+          flex-direction: column;
+        }
+        .option-group {
+          display: flex;
+          align-items: center;
+          max-width: 100%;
+          h2 {
+            width: 110px;
+          }
+          margin-bottom: 0;
+          margin-right: 0;
+          padding: 5px 0;
+        }
+        .select--custom {
+          flex-grow: 1;
+          min-width: 120px;
+          .ant-select-selection {
+            height: 35px;
+          }
+        }
+        .button-group {
+        }
+      }
+      .btn-history {
+        // padding: 4px 15px;
+        height: 36px;
+        min-width: 90px;
+        padding: 0 15px;
+        margin: 0 10px;
+        background-color: #7a7a7a;
+        border: 1px solid #7a7a7a;
+        color: #fff;
+        border-radius: 2px;
+        cursor: pointer;
+        &.active {
+          background-color: #037aff;
+          border: 1px solid #037aff;
+        }
+      }
+      .RangePicker--custom {
+        flex-grow: 1;
+        padding-left: 10px;
+        .ant-calendar-picker {
+          .ant-calendar-picker-input {
+            height: 36px !important;
+          }
+        }
+      }
+      .btn-see {
+        height: 35px;
+        background-color: #037aff;
+        color: #fff;
+        border: 1px solid #037aff;
+        margin-left: 20px;
+        border-radius: 2px;
+        // width: 20px;
+        padding: 0 15px;
+        cursor: pointer;
+      }
+      .btn-export {
+        width: 100px;
+        height: 35px;
+        background-color: #037aff;
+        color: #fff;
+        border: 1px solid #037aff;
+        margin: 5px 10px;
+        border-radius: 2px;
+        padding: 0 10px;
+        cursor: pointer;
+      }
+      .btn-see-report {
+        width: 120px;
+        height: 35px;
+        background-color: #ff3823;
+        color: #fff;
+        border: 1px solid #ff3823;
+        margin: 5px 0px 5px 10px;
+        border-radius: 2px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+      .select--custom {
+        margin: 0 10px;
+        min-width: 120px;
+        .ant-select-selection {
+          height: 35px;
+        }
+      }
+    }
+    &__body {
+      thead[class*="ant-table-thead"] th {
+        background-color: #009347 !important;
+        color: #fff !important;
+        border-right-color: #fff !important;
+      }
+      .chart {
+        &-note {
+          text-align: center;
+          p {
+            font-size: 20px;
+            color: #333;
+          }
+          &__time {
+            text-align: center;
+            margin: auto;
+            margin-left: 16%;
+            // width: 60%;
+            span {
+              margin: 0 5px;
+            }
+            .btn-history {
+              // padding: 4px 15px;
+              height: 35px;
+              padding: 0 15px;
+              margin: 0 10px;
+              background-color: #7a7a7a;
+              border: 1px solid #7a7a7a;
+              color: #fff;
+              border-radius: 2px;
+              cursor: pointer;
+              &.active {
+                background-color: #037aff;
+                border: 1px solid #037aff;
+              }
+            }
+            .btn-see {
+              height: 35px;
+              background-color: #037aff;
+              color: #fff;
+              border: 1px solid #037aff;
+              margin-left: 30px;
+              border-radius: 2px;
+              // width: 20px;
+              padding: 0 15px;
+              cursor: pointer;
+            }
+            .ant-calendar-picker {
+              .ant-calendar-picker-input {
+                height: 35px !important;
+              }
+            }
+          }
+        }
+      }
+      .history {
+        .card {
+          .btn-dowload {
+            background-color: #16d17f !important;
+            border-radius: 2px;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

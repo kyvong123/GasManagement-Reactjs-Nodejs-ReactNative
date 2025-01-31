@@ -1,0 +1,52 @@
+.btn_dv{
+  display: block;
+
+  width: 30px;
+  aspect-ratio: 1;
+
+  border-radius: 50%;
+  border: none;
+  outline: none;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+
+  background-color: black;
+}
+
+.btn_dv.add{
+  margin-left: 20px;
+}
+
+.order_item_dv{
+  display: block;
+  width: 100%;
+
+}
+.wrap-dv{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.wrap-dv > *{
+  margin-left: 5px;
+}
+.sl_dv{
+  display: block;
+  width:100px;
+  height: 30px;
+  border-radius: 30%;
+  outline: none;
+  border: none;
+  margin: 25px;
+  font-size: 18px;
+}
+ .input_dv{
+  display: block;
+  width: 100px;
+  height: 30px;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+ } 

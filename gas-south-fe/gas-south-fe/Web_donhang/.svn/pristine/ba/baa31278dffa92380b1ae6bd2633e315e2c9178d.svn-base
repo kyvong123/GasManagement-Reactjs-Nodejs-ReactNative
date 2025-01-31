@@ -1,0 +1,515 @@
+<div class="modal-content">
+
+    <div class="modal-body">
+        <div data-provide="wizard">
+            <ul class="nav nav-process nav-process-circle">
+                <li class="nav-item">
+                    <span class="nav-title">Thông tin</span>
+                    <a class="nav-link" data-toggle="tab" href="#wizard-basic-1"></a>
+                </li>
+                <li class="nav-item">
+                    <span class="nav-title">Thời gian</span>
+                    <a class="nav-link" data-toggle="tab" href="#wizard-basic-2"></a>
+                </li>
+                <li class="nav-item">
+                    <span class="nav-title">Hình ảnh</span>
+                    <a class="nav-link" data-toggle="tab" href="#wizard-basic-3"></a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade active show" id="wizard-basic-1" data-provide="validation">
+                    <div class="row seednet-formgroup">
+                        <div class="col-sm-6 ">
+                            <div class="form-group">
+                                <label>Tiêu đề tin tuyển dụng</label>
+                                <input class="form-control" type="text">
+                                <div class="form-control-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 ">
+                            <div class="form-group">
+                                <label>Cửa hàng</label>
+                                <select class="form-control" id="select">
+                                    <option>Cửa hàng</option>
+                                    <option>Cofee House - Hồng Hà</option>
+                                    <option>Cofee House - Phan Văn Trị</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 ">
+                            <div class="flexbox">
+                                <div class="form-group flex-grow">
+                                    <label>Mức lương</label>
+                                    <input class="form-control" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label class="seednet-hide-label"></label>
+                                    <select class="form-control" id="select">
+                                        <option>/Giờ</option>
+                                        <option>/Tuần</option>
+                                        <option>/Tháng</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-6 ">
+                            <div class="form-group">
+                                <label>Vị trí</label>
+                                <select class="form-control" id="select">
+                                    <option>Vị trí</option>
+                                    <option>Phục vụ bán thời gian</option>
+                                    <option>Bếp bán thời gian</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="row gap-6">
+                                <div class="col-sm-6">
+                                    <div class="flexbox">
+                                        <div class="form-group flex-grow">
+                                            <label>Hạn nộp đơn</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" data-provide="datepicker">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="seednet-hide-label">Số lượng</label>
+                                            <select class="form-control" id="select">
+                                                <option>Chọn</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="textarea">Mô tả công việc</label>
+                                        <textarea class="form-control" id="textarea" rows="7"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="textarea">Kỹ năng yêu cầu</label>
+                                        <input type="text" value="Thu ngân,Phục vụ" data-provide="tagsinput">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="textarea">Tính cách yêu cầu</label>
+                                        <input type="text" value="Chăm chỉ,Giao tiếp cởi mở" data-provide="tagsinput">
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="wizard-basic-2" data-provide="validation">
+                    <div class="row seednet-formgroup">
+                        <div class="col-sm-12">
+                            <h6>Thời gian làm việc</h6>
+                            <div class="form-group custom-control custom-radio">
+                                <input type="radio" id="cr-2" name="rg-1" class="custom-control-input" checked>
+                                <label class="custom-control-label" for="cr-2">Cố định</label>
+                            </div>
+                            <div class="row gap-6">
+                                <div class="col-sm-6">
+                                    <div class="flexbox">
+                                        <div class="form-group flex-grow">
+                                            <select class="form-control" id="select">
+                                                <option>Chọn ca</option>
+                                                <option>Ca sáng</option>
+                                                <option>Ca chiều</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group w-60px">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" data-provide="timepicker"
+                                                       data-show-meridian="false" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group w-60px">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" data-provide="timepicker"
+                                                       data-show-meridian="false" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flexbox">
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T2</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T3</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T4</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T5</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T6</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T7</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">CN</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="flexbox">
+                                        <div class="form-group flex-grow">
+                                            <select class="form-control" id="select">
+                                                <option>Chọn ca</option>
+                                                <option>Ca sáng</option>
+                                                <option>Ca chiều</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group w-60px">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" data-provide="timepicker"
+                                                       data-show-meridian="false" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group w-60px">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" data-provide="timepicker"
+                                                       data-show-meridian="false" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flexbox">
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T2</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T3</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T4</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T5</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T6</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T7</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">CN</label>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="flexbox">
+                                        <div class="form-group flex-grow">
+                                            <select class="form-control" id="select">
+                                                <option>Chọn ca</option>
+                                                <option>Ca sáng</option>
+                                                <option>Ca chiều</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group w-60px">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" data-provide="timepicker"
+                                                       data-show-meridian="false" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group w-60px">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" data-provide="timepicker"
+                                                       data-show-meridian="false" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flexbox">
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T2</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T3</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T4</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T5</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T6</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T7</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">CN</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="flexbox">
+                                        <div class="form-group flex-grow">
+                                            <select class="form-control" id="select">
+                                                <option>Chọn ca</option>
+                                                <option>Ca sáng</option>
+                                                <option>Ca chiều</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group w-60px">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" data-provide="timepicker"
+                                                       data-show-meridian="false" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group w-60px">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" data-provide="timepicker"
+                                                       data-show-meridian="false" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flexbox">
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T2</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T3</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T4</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T5</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T6</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">T7</label>
+                                        </div>
+                                        <div class="form-group custom-control custom-control-sm custom-checkbox form-check-inline">
+                                            <input type="checkbox" class="custom-control-input" id="cc-2" checked>
+                                            <label class="custom-control-label" for="cc-2">CN</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br><br>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group custom-control custom-radio">
+                                <input type="radio" id="cr-Sum" name="rg-1" class="custom-control-input" checked>
+                                <label class="custom-control-label" for="cr-Sum">Theo tổng thời gian</label>
+                            </div>
+                            <div class="flexbox">
+                                <div class="form-group flex-grow">
+                                    <input class="form-control" type="text" placeholder="Số giờ">
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control" id="select">
+                                        <option>/Giờ</option>
+                                        <option>/Tuần</option>
+                                        <option>/Tháng</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group custom-control custom-radio">
+                                <input type="radio" id="cr-FlexTime" name="rg-1" class="custom-control-input" checked>
+                                <label class="custom-control-label" for="cr-FlexTime">Thời gian linh hoạt</label>
+                            </div>
+                            <div class="flexbox">
+                                <div class="form-group flex-grow">
+                                    <input class="form-control" type="text" placeholder="Nhập thông tin thời gian">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="wizard-basic-3">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="flexbox flex-justified">
+                                <div class="form-group">
+                                    <label>Video</label>
+                                    <input class="form-control" type="text">
+                                </div>
+                            </div>
+                            <div class="flexbox flex-justified">
+                                <!-- <div class="form-group">
+                                    <a href="#">Xem trước Video</a>
+                                </div> -->
+                                <!-- <input type="file" data-provide="dropify"> -->
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="https://www.youtube.com/embed/M5S_JBRjd1s" frameborder="0"
+                                            allowfullscreen=""></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="flexbox flex-justified">
+                                <div class="form-group">
+                                    <label>Quyền lợi khác</label>
+                                    <input class="form-control" type="text">
+                                </div>
+                            </div>
+                            <div class="flexbox flex-row-reverse">
+                                <input type="file" data-provide="dropify" class="dropify" data-max-file-size="3M"
+                                       data-allowed-file-extensions="pdf png psd" data-max-width="1000"
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Hình ảnh</label>
+                                <div class="flexbox">
+                                    <input type="file" data-provide="dropify">
+                                    <input type="file" data-provide="dropify">
+                                    <input type="file" data-provide="dropify">
+                                    <input type="file" data-provide="dropify">
+                                    <input type="file" data-provide="dropify">
+                                    <!-- <div data-provide="dropzone" data-url="path/to/file-uploader.php" data-param-name="images" data-max-filesize="5"></div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flexbox seednet-hide">
+                <button class="btn btn-secondary" data-wizard="prev" id="btnTabBackStep">Back</button>
+                <button class="btn btn-secondary" data-wizard="next" id="btnTabNextStep">Next</button>
+                <button class="btn btn-primary d-none" data-wizard="finish">Finish</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-bold btn-pure btn-secondary text-center seednet-hide" data-wizard="prev"
+                onclick="backToPrevStep();" id="btnBackToPrevStep">Quay lại
+        </button>
+        <button class="btn btn-secondary text-center seednet-hide" data-wizard="prev" id="btnSaveDraff">Lưu tạm</button>
+
+        <button type="button" class="btn btn-secondary text-center" data-dismiss="modal" id="btnClose">Đóng lại</button>
+        <button type="button" class="btn btn-primary text-center" data-wizard="next" onclick="goToNextStep();"
+                id="btnContinue">Tiếp tục
+        </button>
+        <button type="button" class="btn btn-primary text-center seednet-hide" data-wizard="next"
+                onclick="goToImageStep();" id="btnPost">Đăng tin
+        </button>
+    </div>
+</div>
+</div>
+<script>
+    var step = 1;
+
+    function goToNextStep() {
+        step++;
+        $('#btnTabNextStep').click();
+        switchStep(step);
+        return false;
+    }
+
+    function backToPrevStep() {
+        step--;
+        $('#btnTabBackStep').click();
+        switchStep(step);
+        return false;
+    }
+
+    function switchStep(step) {
+        switch (step) {
+            case 1:
+                goToInfoStep()
+                break;
+            case 2:
+                goToTimeStep()
+                break;
+            case 3:
+                goToImageStep()
+                break;
+        }
+    }
+
+    function goToInfoStep() {
+
+        $('#btnBackToPrevStep').addClass('seednet-hide');
+        $('#btnSaveDraff').addClass('seednet-hide');
+        $('#btnPost').addClass('seednet-hide');
+
+        $('#btnClose').removeClass('seednet-hide');
+        $('#btnContinue').removeClass('seednet-hide');
+    }
+
+    function goToTimeStep() {
+
+        $('#btnBackToPrevStep').removeClass('seednet-hide');
+        $('#btnContinue').removeClass('seednet-hide');
+
+        $('#btnSaveDraff').addClass('seednet-hide');
+        $('#btnPost').addClass('seednet-hide');
+        $('#btnClose').addClass('seednet-hide');
+    }
+
+    function goToImageStep() {
+        $('#btnBackToPrevStep').removeClass('seednet-hide');
+        $('#btnSaveDraff').removeClass('seednet-hide');
+        $('#btnPost').removeClass('seednet-hide');
+
+        $('#btnClose').addClass('seednet-hide');
+        $('#btnContinue').addClass('seednet-hide');
+    }
+
+    // $('.dropify').dropify({
+    //         tpl: {
+    //         wrap:            '<div class="dropify-wrapper"></div>',
+    //         loader:          '<div class="dropify-loader"></div>',
+    //         message:         '<div class="dropify-message"><img class="seednet-img-view" src="/assets/img/no-thumbnail.jpg" alt=""></div>',
+    //         preview:         '<div class="dropify-preview"><span class="dropify-render"></span><div class="dropify-infos"><div class="dropify-infos-inner"><p class="dropify-infos-message">Sửa</p></div></div></div>',
+    //         filename:        '<p class="dropify-filename"><span class="file-icon"></span> <span class="dropify-filename-inner"></span></p>',
+    //         clearButton:     '<button type="button" class="dropify-clear"><i class="fa fa-trash"></i></button>',
+    //         errorLine:       '<p class="dropify-error">Vui lòng thử lại.</p>',
+    //         errorsContainer: '<div class="dropify-errors-container"><ul></ul></div>'
+    //     }
+    // });
+
+</script>

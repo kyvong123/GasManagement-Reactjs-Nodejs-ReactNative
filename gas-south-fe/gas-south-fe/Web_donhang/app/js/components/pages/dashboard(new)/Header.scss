@@ -1,0 +1,35 @@
+.header {
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+
+    .btn-group {
+
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        .row {
+            width: 100%;
+            gap: 10px;
+            background-color: transparent;
+
+            .date-picker {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .btn-item {
+                border-radius: 5px;
+                border: 1px solid #333;
+                padding: 5px 0;
+                font-weight: 600;
+                cursor: pointer;
+            }
+
+            .active {
+                background-color: #459348;
+            }
+        }
+    }
+}

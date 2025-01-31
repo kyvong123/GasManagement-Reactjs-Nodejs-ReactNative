@@ -1,0 +1,17 @@
+.order-export {
+    display: flex;
+    align-items: center;
+}
+
+.order-export-all-button {
+    background-color: #7cc752;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    > .fa {
+        margin-left: -12px;
+        margin-right: 8px;
+    }
+}

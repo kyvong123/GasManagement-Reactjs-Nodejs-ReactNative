@@ -1,0 +1,142 @@
+.container-statistical {
+  background-color: #fff;
+  padding: 20px;
+
+  .heading {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .container-header {
+    padding: 20px 30px;
+    border: solid 1px #000;
+
+    h2 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-right: 50px;
+    }
+
+    .btn-history {
+      // padding: 4px 15px;
+      height: 36px;
+      min-width: 90px;
+      padding: 0 15px;
+      margin: 0 10px;
+      background-color: #7a7a7a;
+      border: 1px solid #7a7a7a;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+
+      &.active {
+        background-color: #037aff;
+        border: 1px solid #037aff;
+      }
+    }
+
+    .RangePicker--custom {
+      flex-grow: 1;
+      padding-left: 10px;
+
+      .ant-calendar-picker {
+        .ant-calendar-picker-input {
+          height: 36px !important;
+        }
+      }
+    }
+
+    .btn-seen {
+      cursor: pointer;
+      padding: 8px 40px;
+      border-radius: 2px;
+      background-color: #037aff;
+      outline: none;
+      color: #fff;
+      position: relative;
+      right: -856px;
+      margin-top: 20px;
+      border-radius: 4px;
+      border: none;
+      box-shadow: 1px 5px 7px #888888;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .content-statistical {
+    .table-head {
+      color: #fff;
+      background-color: #009347;
+    }
+
+    .table-content {
+      margin-top: 50px;
+      text-align: center;
+    }
+  }
+
+  .th-manufacture {
+    padding: 80px 0;
+  }
+
+  .th-cylinder {
+    padding: 0;
+    width: 200px;
+
+    .th2_cylinder {
+      border-left: none;
+      width: 200px;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .heading-table {
+    padding: 20px 0;
+  }
+}
+
+.station-wrapper {
+  display: flex;
+  margin-top: 40px;
+  padding: 0 15px;
+
+  .select-station {
+    padding: 5px 20px;
+    border-radius: 4px;
+  }
+}
+
+.chinhanh {
+  display: flex;
+  margin-right: 50px;
+
+  .select-station {
+    border-radius: 4px;
+    height: 35px;
+  }
+}
+
+.mess {
+  margin-top: 10px;
+  display: none;
+}
+
+.error {
+  display: block;
+  // color: red
+}
+
+.wrapper_station {
+  padding: 0 15px;
+  display: flex;
+  margin-top: 52px;
+
+
+}

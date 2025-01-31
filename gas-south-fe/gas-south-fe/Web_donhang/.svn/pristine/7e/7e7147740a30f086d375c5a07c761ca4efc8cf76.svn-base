@@ -1,0 +1,43 @@
+#ContainerSetting {
+  .main-content {
+    padding: 0%;
+  }
+  .TitlePage {
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  .FormSetting {
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  .settingSearch {
+    background-color: #096ab2;
+    color: whitesmoke;
+  }
+  .settingColSearch {
+    width: 219px;
+  }
+  .settingRowSearch {
+    padding-top: 5px;
+  }
+  .settingRetype {
+    background-color: grey;
+    color: whitesmoke;
+  }
+  .ant-table-thead > tr > th {
+    background-color: rgb(0, 147, 71);
+    color: whitesmoke;
+    text-align: center;
+    width: 25%;
+  }
+  .newList {
+    background-color: #096ab2;
+    color: whitesmoke;
+  }
+  .ant-table-tbody > tr {
+    color: black;
+    font-size: 14px;
+  }
+}

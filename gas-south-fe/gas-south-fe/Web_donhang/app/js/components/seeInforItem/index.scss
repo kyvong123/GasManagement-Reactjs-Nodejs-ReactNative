@@ -1,0 +1,28 @@
+@import "~antd/dist/antd.css";
+.container {
+    .div-image {
+        //text-align: center;
+        width: 215px;
+        height: 200px;
+        img {
+            width: 100%;
+            height: 80%;
+        }
+        .button-input {
+            input {
+                //display: none;
+                opacity: 0;
+                position: absolute;
+                left: 0;
+            }
+            button {
+                width: 215px;
+                font-family: Helvetica, sans-serif;
+                color: white;
+                border: none;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+}

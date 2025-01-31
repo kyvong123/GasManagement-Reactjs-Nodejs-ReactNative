@@ -1,0 +1,138 @@
+#Inventory {
+    table {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    thead[class*="ant-table-thead"] th.ant-table-align-center {
+        font-weight: normal;
+    }
+
+    thead[class*="ant-table-thead"] th {
+        height: 50px;
+    }
+
+    .delete_icon {
+        color: red;
+        font-size: medium;
+        font-weight: lighter;
+    }
+
+    .update_icon {
+        color: green;
+        font-size: medium;
+        font-weight: lighter;
+    }
+
+    .view_icon {
+        color: slateblue;
+        font-size: medium;
+        font-weight: lighter;
+    }
+
+    .createPlan_icon {
+        color: initial;
+        font-size: medium;
+        font-weight: lighter;
+    }
+
+    .view-icon {
+        color: slateblue;
+        font-size: medium;
+        font-weight: lighter;
+      }
+
+    // .delete_link:hover{
+    //     background-color: unset;
+    // }
+
+    // .update_link:hover{
+    //     background-color: unset;
+    // }
+
+    // .view_link:hover{
+    //     background-color: unset;
+    // }
+
+    .ant-form-explain {
+        border: none;
+        border-radius: 3px;
+        color: #721c24 !important;
+        background-color: #f8d7da;
+        padding: 0.3rem 1.25rem;
+    }
+
+    .search_btn {
+        margin: 0 5px 0 5px;
+        background-color: #faa64b;
+        border-color: #faa64b;
+    }
+
+    .search_input {
+        color: black;
+    }
+
+    .footer_form {
+        width: 100%;
+        justify-content: center;
+    }
+
+    @media (min-width: 992px) {
+        .modal-dialog {
+            max-width: 70% !important;
+        }
+    }
+
+    #create-plan {
+        thead[class*="ant-table-thead"] th.ant-table-align-center {
+            font-weight: normal;
+        }
+
+        thead[class*="ant-table-thead"] th {
+            height: 50px;
+            background-color: #009347 !important;
+            color: #fff !important;
+            border-right-color: #fff !important;
+        }
+    }
+
+    .form-control[readonly] {
+        color: black
+    }
+
+    .check_div {
+        padding-top: 6px;
+    }
+
+    #input_name,
+    #input_code,
+    #input_station,
+    #input_address,
+    #input_mininventory,
+    #input_note,
+    #input_namecontact,
+    #input_emailcontact,
+    #input_mobilecontact,
+    #input_quantity,
+    #input_month .ant-calendar-picker-input {
+        color: black;
+    }
+
+    .site-card-border-less-wrapper {
+        padding: 20px;
+        // background: #cbcbcb;
+    }
+
+    #form_footer {
+        width: 100%;
+        margin: auto;
+    }
+
+    #form_body {
+        padding: 1rem 1rem 0rem 1rem;
+    }
+
+    #form_body .ant-card {
+        border: 1px solid #cfcccc;
+        min-height: 460px;
+    }
+}

@@ -1,0 +1,36 @@
+.recharts-default-legend {
+    display: flex;
+}
+
+@media (min-width: 992px) {
+    .showReport {
+        .modal-lg {
+            max-width: 101% !important;
+            margin-right: -15px;
+            margin-top: 0;
+        }
+    }
+
+}
+
+.table-toplist {
+    tr.ant-table-row.ant-table-row-level-0 {
+        background: moccasin;
+    }
+
+    td {
+        font-weight: bold;
+    }
+}
+
+.Select-clear {
+    display: none;
+}
+
+.card-title {
+    font-weight: 400;
+}
+
+.card-title strong {
+    padding-right: 5px;
+}

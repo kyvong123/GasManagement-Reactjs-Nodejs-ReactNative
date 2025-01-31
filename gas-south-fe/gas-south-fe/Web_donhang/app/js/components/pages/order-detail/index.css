@@ -1,0 +1,11 @@
+.arrow-icon{
+    cursor: pointer;
+}
+.up-icon{
+    cursor: pointer;
+}
+.small-font{
+    font-weight:300;
+    font-size:20px;
+    color:#656565;
+}

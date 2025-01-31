@@ -1,0 +1,34 @@
+<ul class="quickview-header p-0 nav nav-tabs nav-justified nav-tabs-info">
+   <li class="nav-item">
+    <h3 data-toggle="tab" href="#qv-global-tab-contacts">Thông báo</h3>
+    <a class="seednet-close-icon" href="#" onclick="$('.backdrop-quickview').click();"></a>
+   </li>
+</ul>
+
+<div class="quickview-body">
+  <div class="tab-content">
+    <div class="tab-pane fade active show" id="qv-global-tab-contacts">
+      <div class="media-list media-list-xs media-list-hover media-list-divided">
+        <div class="media items-center">
+          <a class="seednet-notification-img" href="#">
+            <img src="../assets/img/logo.png" alt="...">
+          </a>
+          <a class="media media-vertical seednet-margin-padding-0" href="../uikit/panel-accordion.html">
+            <h6>Tin tuyển dụng nhân viên ca sáng đã được đăng thành công</h6>
+             <small>1 giờ trước</small>
+          </a>
+         </div>
+
+        <div class="media items-center">
+          <a class="seednet-notification-img" href="#">
+            <img src="../assets/img/logo.png" alt="...">
+          </a>
+          <a class="media media-vertical seednet-margin-padding-0" href="../uikit/panel-accordion.html">
+            <h6>3 ứng viên đã đăng ký ứng tuyển cho tin tuyển dụng nhân viên...</h6>
+             <small>5 ngày trước</small>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

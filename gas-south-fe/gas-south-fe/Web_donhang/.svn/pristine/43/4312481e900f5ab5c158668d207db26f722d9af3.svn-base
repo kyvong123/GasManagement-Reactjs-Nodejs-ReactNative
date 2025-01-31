@@ -1,0 +1,44 @@
+@import "~antd/dist/antd.css";
+.div-form-change-user {
+    padding-top: 80px;
+    input {
+        width: 82%;
+    }
+    .form-chang-user {
+        padding: 1rem;
+        background: #fff;
+        border: 0;
+        border-radius: 0px;
+        margin-bottom: 30px;
+        -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
+        .text-input {
+            padding-left: 15%;
+            .label {
+                font-weight: bold;
+                margin-top: 14px;
+            }
+            .div-img-in-but {
+                width: 215px;
+                height: 300px;
+                img {
+                    width: 215px;
+                    height: 200px;
+                }
+                input {
+                    position: absolute;
+                    opacity: 0;
+                }
+                button {
+                    width: 215px;
+                }
+            }
+            .input {
+                padding-top: 20px;
+                .form-control {
+                    padding-top: 6px;
+                }
+            }
+        }
+    }
+}

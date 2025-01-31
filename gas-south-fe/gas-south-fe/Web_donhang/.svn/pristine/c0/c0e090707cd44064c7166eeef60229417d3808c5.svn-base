@@ -1,0 +1,198 @@
+//@import "~antd/dist/antd.css";
+input,
+button,
+select,
+textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+.boxInformation,
+.boxDetailOrder,
+.boxTextNote,
+.boxAnh {
+  height: auto;
+  width: 100%;
+  border: 1px solid #928b8b;
+  clear: both;
+}
+
+.boxInformation>h3 {
+  width: 180px;
+  margin-left: 20px;
+  margin-top: -20px;
+  background-color: white;
+  color: #5a5858;
+}
+
+.boxDetailOrder>h3 {
+  width: 200px;
+  margin-left: 20px;
+  margin-top: -20px;
+  background-color: white;
+  color: #5a5858;
+  padding-left: 4px;
+}
+
+.boxTextNote>h3 {
+  width: 100px;
+  margin-left: 20px;
+  margin-top: -20px;
+  background-color: white;
+  color: #5a5858;
+  padding-left: 4px;
+}
+
+.boxAnh>h3 {
+  width: 50px;
+  margin-left: 20px;
+  margin-top: -20px;
+  background-color: white;
+  color: #5a5858;
+  padding-left: 4px;
+}
+
+.btnTaoDonHang button {
+  font-size: 30px;
+}
+
+.custom-file-label {
+  font-size: 16px;
+}
+
+// .boxThemAnh label {
+//   margin-top: 25px;
+// }
+.editBoxAnh {
+  max-width: 100%;
+  margin-left: -6px;
+}
+
+.listAnh {
+  position: relative;
+}
+
+.listAnh i {
+  position: absolute;
+  top: 110px;
+  left: 67px;
+  color: red;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.ant-time-picker-panel-input {
+  width: 101px;
+}
+
+@media screen and (max-width: 1200px) {
+  .boxThemAnh label {
+    margin-top: 0;
+  }
+
+  .boxDetailOrder {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  label {
+    font-size: 16px;
+  }
+
+  .btnTaoDonHang button {
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .boxThemAnh label {
+    margin-top: 0;
+  }
+
+  .listAnh i {
+    position: absolute;
+    top: 100px;
+    left: 105px;
+    color: red;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  label {
+    font-size: 15px;
+  }
+
+  .btnTaoDonHang button {
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .boxThemAnh label {
+    margin-top: 0;
+  }
+
+  .listAnh i {
+    position: absolute;
+    top: 110px;
+    left: 115px;
+    color: red;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  label {
+    font-size: 14px;
+  }
+
+  .inputGioGiao input,
+  .inputDatLichNhac input,
+  .inputNgayGiao input {
+    margin-top: 0px;
+    font-size: 9px;
+    height: 35px;
+  }
+
+  .btnTaoDonHang button {
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .boxThemAnh label {
+    margin-top: 0;
+  }
+
+  .listAnh i {
+    position: absolute;
+    top: 115px;
+    left: 75px;
+    color: red;
+    cursor: pointer;
+    background-color: white;
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+.ant-calendar-picker-clear,
+.ant-calendar-picker-icon {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  right: 5px;
+  top: 50%;
+  margin-top: -7px;
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+  content: "Chọn";
+}
+
+.custom-css input:placeholder-shown {
+  font-size: 14px;
+}

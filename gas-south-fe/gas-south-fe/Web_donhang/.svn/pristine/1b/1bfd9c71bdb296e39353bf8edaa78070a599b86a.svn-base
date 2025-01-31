@@ -1,0 +1,4 @@
+.tableFixHead          { overflow-y: auto; height: 500px; }
+/* Just common table stuff. Really. */
+table  { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px 16px; }

@@ -1,0 +1,4 @@
+{
+    "eslint.autoFixOnSave": true,
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

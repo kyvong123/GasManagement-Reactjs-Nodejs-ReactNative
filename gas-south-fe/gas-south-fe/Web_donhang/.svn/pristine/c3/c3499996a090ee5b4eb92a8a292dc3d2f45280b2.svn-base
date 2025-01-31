@@ -1,0 +1,9 @@
+.card-title{
+    margin-bottom: 0;
+    padding: 15px 54px;
+    border-bottom: 1px solid rgba(77, 82, 89, 0.07);
+}
+
+.login-form-button{
+    border: none;
+}

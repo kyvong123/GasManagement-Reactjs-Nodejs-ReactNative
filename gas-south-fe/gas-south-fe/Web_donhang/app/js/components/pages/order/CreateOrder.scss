@@ -1,0 +1,213 @@
+@import "~antd/dist/antd.css";
+
+.ant-table-tbody > tr .ant-table-wrapper:only-child .ant-table {
+  margin: 0;
+}
+
+// .ant-pagination-prev {
+//   line-height: 18px;
+// }
+// .ant-pagination-next {
+//   line-height: 18px;
+// }
+a#duy {
+  width: 40px;
+}
+.widthAdd {
+  width: 100%;
+}
+.long {
+  border-radius: 50%;
+  padding: 10px 14px;
+  // position: absolute;
+  // right: 9%;
+  // top: 54%;
+  // top:-11px;
+}
+.del {
+  margin: 0px 10px;
+  border-radius: 50%;
+  padding: 10px 14px;
+}
+.clear {
+  clear: both;
+}
+.border_form {
+  border: 1px #e7e7e7 solid;
+  padding: 10px;
+  border-radius: 5px;
+}
+.button {
+  position: relative;
+  width: 100%;
+}
+
+.login-form-button {
+  border: none;
+}
+.date {
+  font-size: 19px;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+}
+.ant-time-picker-input {
+  font-size: 18px;
+}
+// body{
+//     overflow-x: hidden;
+// }
+.ant-time-picker-panel-select ul {
+  width: 56px;
+  margin: 0;
+  padding: 0 0;
+  list-style: none;
+}
+.ant-table-row-expand-icon::before,
+.ant-table-row-expand-icon::after {
+  position: unset;
+  background: none;
+}
+
+.print-source {
+  display: none;
+}
+.title-print {
+  display: none;
+}
+
+@media print {
+  // .print-container {
+  //     margin: 0 auto;
+  //     align-items: center;
+  // }
+
+  .title-print {
+    display: inline-block;
+    // position: absolute;
+    top: 0;
+    left: 50%;
+  }
+  .print-source {
+    display: inline-block;
+    // position: fixed;
+    top: 100;
+    left: 0;
+    right: 0;
+    width: 800;
+    margin: auto;
+    padding: 40;
+    background-color: white;
+  }
+  .title {
+    display: block;
+    font-size: 28;
+    text-align: center;
+  }
+  .title-second {
+    display: block;
+    font-size: 28;
+    text-align: center;
+  }
+  .sub-title {
+    padding: 10;
+    display: block;
+    font-size: 18;
+    text-align: center;
+  }
+  .signature {
+    padding-left: 70;
+    padding-right: 70;
+  }
+}
+
+@media all {
+  .page-break {
+    display: none;
+  }
+}
+
+@media print {
+  html,
+  body {
+    height: initial !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+@media print {
+  .page-break {
+    margin-top: 1rem;
+    display: block;
+    page-break-before: auto;
+  }
+}
+
+@page {
+  size: auto;
+  margin: 20mm;
+}
+
+@media print {
+  h1 {
+    page-break-before: always;
+  }
+}
+
+@media (max-width: 1440px) {
+  .ant-row.ant-form-item {
+    width: 100% !important;
+  }
+  span.ant-calendar-picker {
+    // width: 100% !important;
+  }
+  input.ant-time-picker-input {
+    width: 100% !important;
+  }
+  span.ant-time-picker.time {
+    width: 100% !important;
+  }
+  .ant-select .ant-select-enabled {
+    width: 100% !important;
+  }
+  .ant-form-item .ant-select,
+  .ant-form-item .ant-cascader-picker {
+    width: 100% !important;
+  }
+}
+@media (max-width: 1200px) {
+  // label {
+  //     margin-left: 10% !important;
+  // }
+
+  .ant-table {
+    width: 300%;
+  }
+  .ant-table-wrapper {
+    max-width: 100%;
+    display: block;
+    width: fit-content;
+  }
+  .ant-col-xs-22 {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 91.66666667%;
+    // overflow: auto;
+  }
+}
+@media (max-width: 414px) {
+  .ant-select-selection.ant-select-selection--single {
+    width: 70%;
+  }
+  .ant-select .ant-select-enabled {
+    width: 70%;
+  }
+}
+@media (max-width: 375px) {
+  .ant-select-selection.ant-select-selection--single {
+    width: 60%;
+  }
+  .ant-select .ant-select-enabled {
+    width: 60%;
+  }
+}

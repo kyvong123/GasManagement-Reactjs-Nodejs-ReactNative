@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applicationId": "org.reactnative.camera",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": -1,
+        "outputFile": "react-native-camera-general-debug.aar",
+        "fullName": "generalDebug",
+        "baseName": "general-debug",
+        "dirName": ""
+      },
+      "path": "../../library_manifest/generalDebug/AndroidManifest.xml",
+      "properties": {
+        "packageId": "org.reactnative.camera",
+        "split": ""
+      }
+    }
+  ]
+}

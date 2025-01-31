@@ -1,0 +1,74 @@
+@import "~antd/dist/antd.css";
+#orderTank-truck {
+  .inputKhachHang {
+    font-size: 12px;
+  }
+  .inputDonHang {
+    font-size: 12px;
+  }
+  .inputTrangThai {
+    font-size: 12px;
+    height: 30px;
+  }
+  .btnTimKiem {
+    font-size: 12px;
+  }
+  .btnNhapLai {
+    font-size: 12px;
+  }
+  .btnTaoDonHang {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 1600px) {
+    .inputKhachHang {
+      font-size: 10px;
+    }
+    .inputDonHang {
+      font-size: 10px;
+    }
+    .inputTrangThai {
+      font-size: 10px;
+      height: 28px;
+    }
+    .btnTimKiem {
+      font-size: 10px;
+    }
+    .btnNhapLai {
+      font-size: 10px;
+    }
+    .btnTaoDonHang {
+      font-size: 10px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+  }
+  @media screen and (max-width: 992px) {
+  }
+  @media screen and (max-width: 768px) {
+  }
+  @media screen and (max-width: 576px) {
+  }
+
+  th {
+    background-color: #009347 !important;
+    color: #fff !important;
+    text-align: center !important;
+  }
+  td {
+    text-align: center !important;
+  }
+
+  #orderTank-table {
+    overflow-x: scroll;
+
+    .ant-spin-nested-loading {
+      min-width: 130%;
+    }
+  }
+
+  #history-export {
+    .ant-spin-nested-loading {
+      min-width: 100%;
+    }
+  }
+}

@@ -1,0 +1,163 @@
+
+#SeeOrdercss{
+    
+  .SeeOrdercss{
+    &__title{
+      padding: 1rem;
+      h4{
+        display: block;
+        height: 2rem;
+			  margin-bottom: 10px;
+      }
+      &__right{
+        button{
+          margin-right: 0.4rem;
+          width: 10rem;
+          margin-bottom: 0.4rem;
+        }
+      }
+    }
+      &__menu{
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+          &__right{ 
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+          float: left;
+          // display: grid;
+          // gap: 10px;
+          // grid-template-columns: repeat(6, 1fr);
+          // grid-template-rows: repeat(1, 2rem);
+          button{
+            margin-right: 0.4rem;
+          }
+          select{
+            margin-right: 0.4rem;
+          }
+          .btn-history {
+            // padding: 4px 15px;
+            height: 36px;
+            min-width: 90px;
+            background-color: #7a7a7a;
+            border: 1px solid #7a7a7a;
+            color: #fff;
+            border-radius: 2px;
+            cursor: pointer;
+            &.active {
+              background-color: #037aff;
+              border: 1px solid #037aff;
+            }
+          }  
+          }
+          &__left{
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+            width: 35%;
+            .RangePicker--customN{
+              flex-grow: 1;
+              margin-bottom: 1rem;
+              margin-top: 1rem;
+              padding: 0.1rem;
+          }
+        
+      }
+
+    }
+    &__body{
+      padding: 0.6rem;
+      thead[class*="ant-table-thead"] th {
+        background-color: #009347 !important;
+        color: #fff !important;
+        border-right-color: #fff !important;
+      }  
+    }
+    
+  }
+  
+   
+  @media  only screen and (max-width: 1024px){
+    .SeeOrdercss{
+      &__menu{
+        &__left{
+          display: none;
+        }
+      }
+    }  
+  }
+  @media 
+only screen and (max-width: 760px){
+  .SeeOrdercss{
+    &__body{
+      display: flex;
+            padding: 0.2rem;
+            justify-content: space-between;
+            margin-left: 1rem;
+      &__text{
+        width: auto;
+        display: block;
+        max-width: 15rem;
+        table{
+          display: block;
+          max-width: 10rem;
+        }
+         thead, tbody, th, td, tr { 
+          display: block;
+           
+        }
+       
+        
+        /* Hide table headers (but not display: none;, for accessibility) */
+        thead tr { 
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+        }
+        
+        tr { border: 1px solid #ccc; }
+        table  td:first-child {
+          display:none;
+        }
+        td { 
+          // /* Behave  like a "row" */
+          // border: none;
+          // border-bottom: 1px solid #eee; 
+          // position: relative;
+          padding-left: 50%; 
+        }
+       
+        td:before { 
+          /* Now like a table header */
+          position: absolute;
+          /* Top/left values mimic padding */
+          top: 6px;
+          left: 6px;
+          width: 45%; 
+          padding-right: 10px; 
+          white-space: nowrap;
+        }
+        
+        // /*
+        // Label the data
+        // */
+        //  td:nth-of-type(1):before { content: "First Name"; }
+        td:nth-of-type(1):before { content: "Check"; }
+        td:nth-of-type(2):before { content: "STT"; }
+        td:nth-of-type(3):before { content: "Mã đơn hàng"; }
+        td:nth-of-type(4):before { content: "Tên trạm"; }
+        td:nth-of-type(5):before { content: "Nhà máy"; }
+        td:nth-of-type(6):before { content: "Ngày-giờ tạo"; }
+        td:nth-of-type(7):before { content: "Ngày giao"; }
+        td:nth-of-type(8):before { content: "Số lượng"; }
+        td:nth-of-type(9):before { content: "Trạng thái"; }
+        td:nth-of-type(10):before { content: "Thao tác"; }
+
+      }
+        
+      }
+  }  
+
+}
+  
+   
+}

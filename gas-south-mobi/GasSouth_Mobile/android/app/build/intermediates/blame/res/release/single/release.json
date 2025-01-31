@@ -1,0 +1,374 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_googlemaps.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_googlemaps.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_transit.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_transit.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_mdndata_css_properties.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_mdndata_css_properties.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_dgis.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_dgis.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_tick.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativedropdownpicker_src_themes_light_icons_tick.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_fontisto.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontisto.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowdown.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowdown.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_static_images_gas3.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_static_images_gas3.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontawesome.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_close.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativedropdownpicker_src_themes_light_icons_close.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_citymapper.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_citymapper.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_constants_banner1.jpg.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_constants_banner1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_tick.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativedropdownpicker_src_themes_dark_icons_tick.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_csstree_package.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_csstree_package.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_mapycz.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_mapycz.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_close.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativedropdownpicker_src_themes_dark_icons_close.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_truckmap.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_truckmap.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_csstree_data_patch.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_csstree_data_patch.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_yandextaxi.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_yandextaxi.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_entypo.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_entypo.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_petalmaps.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_petalmaps.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_static_images_logo.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_static_images_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_kakaomap.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_kakaomap.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnavigationstack_lib_module_views_assets_backiconmask.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnavigationstack_lib_module_views_assets_backiconmask.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_static_images_gas4.jpg.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_static_images_gas4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_applemaps.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_applemaps.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_static_images_unitedkingdom.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_static_images_unitedkingdom.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativerouterflux_images_back_chevron.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativerouterflux_images_back_chevron.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_bang88_reactnativeultimatelistview_src_downarrow.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_bang88_reactnativeultimatelistview_src_downarrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_lyft.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_lyft.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_ionicons.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_ionicons.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_materialicons.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_materialicons.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_static_images_gaslogo.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_static_images_gaslogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowup.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowup.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowup.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowup.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_mdndata_css_atrules.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_mdndata_css_atrules.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_yandex.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_yandex.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowdown.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowdown.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativepaper_src_assets_backchevron.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativepaper_src_assets_backchevron.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativerouterflux_images_menu_burger.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativerouterflux_images_menu_burger.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_tailwind.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\tailwind.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-hdpi\\node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_static_images_gas5.jpg.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_static_images_gas5.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_osmand.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_osmand.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_static_images_gas1.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_static_images_gas1.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_uber.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_uber.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_constants_banner.jpg.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_constants_banner.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_moovit.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_moovit.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_mdndata_css_syntaxes.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_mdndata_css_syntaxes.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_navermap.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_navermap.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_static_images_vietnam.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_static_images_vietnam.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_app.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\app.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_antdesign.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_antdesign.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_feather.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_feather.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_mapsme.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_mapsme.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_waze.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_waze.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_static_images_logovtgas.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_static_images_logovtgas.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_static_images_logo2.jpg.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_static_images_logo2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnative_libraries_newappscreen_components_logo.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnative_libraries_newappscreen_components_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_axios_package.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_axios_package.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_static_images_logo2x.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_static_images_logo2x.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_static_images_logo.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_static_images_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_src_languages_en.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\src_languages_en.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_static_images_gas2.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_static_images_gas2.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_yandexmaps.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_yandexmaps.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_gett.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_gett.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxxhdpi\\node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativemaplink_src_images_liftago.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativemaplink_src_images_liftago.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativedatepicker_date_icon.png.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativedatepicker_date_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_octicons.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_octicons.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_src_languages_vi.json.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\raw\\src_languages_vi.json"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_static_images_gas6.jpg.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\datvietgroup\\gas-south-mobi\\GasSouth_Mobile\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_static_images_gas6.jpg"
+    }
+]

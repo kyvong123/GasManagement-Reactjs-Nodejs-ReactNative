@@ -1,0 +1,61 @@
+package com.gassouth;
+
+import android.app.Application;
+
+import com.facebook.react.ReactApplication;
+// import com.reactnativecommunity.cameraroll.CameraRollPackage;
+import com.reactnativecommunity.imageeditor.ImageEditorPackage;
+import com.facebook.react.ReactNativeHost;
+import com.facebook.react.ReactPackage;
+import com.facebook.soloader.SoLoader;
+
+import android.util.Log;
+import com.facebook.react.PackageList;
+import com.facebook.hermes.reactexecutor.HermesExecutorFactory;
+import com.facebook.react.bridge.JavaScriptExecutorFactory;
+import fr.bamlab.rnimageresizer.ImageResizerPackage;
+import org.reactnative.camera.RNCameraPackage;
+import com.horcrux.svg.SvgPackage;
+import com.oblador.vectoricons.VectorIconsPackage;
+import java.util.Arrays;
+import java.util.List;
+
+public class MainApplication extends Application implements ReactApplication {
+
+  private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+    @Override
+    public boolean getUseDeveloperSupport() {
+      return BuildConfig.DEBUG;
+    }
+
+    @Override
+    protected List<ReactPackage> getPackages() {
+      @SuppressWarnings("UnnecessaryLocalVariable")
+      List<ReactPackage> packages = new PackageList(this).getPackages();
+      // Packages that cannot be autolinked yet can be added manually here, for example:
+      // packages.add(new MyReactNativePackage());
+      packages.add(new ImageResizerPackage());
+      packages.add(new RNCameraPackage());
+      packages.add(new SvgPackage());
+      packages.add(new VectorIconsPackage());
+      // packages.add(new CameraRollPackage());
+      return packages;
+    }
+
+    @Override
+    protected String getJSMainModuleName() {
+      return "index";
+    }
+  };
+
+  @Override
+  public ReactNativeHost getReactNativeHost() {
+    return mReactNativeHost;
+  }
+
+  @Override
+  public void onCreate() {
+    super.onCreate();
+    SoLoader.init(this, /* native exopackage */ false);
+  }
+}
